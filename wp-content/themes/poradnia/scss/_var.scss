@@ -1,0 +1,93 @@
+// Colors //
+
+$c-one: #CF6187;
+$c-one-hover: darken($c-one, 20%);
+$c-two: #4b4b4b;
+$c-three: #FDFAFA;
+$c-four: #f3f3f3;
+$c-five: #f5ecef;
+$c-six: #f8f8f8;
+$c-seven: #E3CBD3;
+$c-eight: #FFFDFD;
+
+
+// Fonts //
+
+$f-one: 'Montserrat', sans-serif;
+$f-two: 'just_tell_me_whatregular', sans-serif;
+
+// Fonts weights //
+
+$thin: 100;
+$regular: 400;
+$medium: 500;
+$bold: 600;
+$extrabold: 900;
+
+// Shadows //
+
+$shadow: 0 20px 40px 0 rgba(94,70,90,0.2);
+$shadow1: 0 5px 20px 0 rgba(94,70,90,0.2);
+$shadow2: 0 30px 60px 0 rgba(0,0,0,0.1);;
+
+
+// Transitions //
+
+$transition: all .4s linear;
+$transitionLong: all 1s linear;
+$transitionExtraLong: all 40s linear;
+
+
+@mixin breakpoint($point) {
+    @if $point == bigDesktop {
+        @media (min-width: 1431px) {
+            @content;
+        }
+    } @else if $point == fullHd {
+        @media (max-width: 1960px) {
+            @content;
+        }
+    }
+    @else if $point == onlyDesktop {
+        @media (min-width: 960px) {
+            @content;
+        }
+    } @else if $point == mediumDesktop {
+        @media (max-width: 1720px) {
+            @content;
+        }
+    }
+    @else if $point == smallDesktop {
+        @media (max-width: 1430px) {
+            @content;
+        }
+    } @else if $point == smallerDesktop {
+        @media (max-width: 1230px) {
+            @content;
+        }
+    } @else if $point == tablet {
+        @media (max-width: 960px) {
+            @content;
+        }
+    } @else if $point == smallComputer {
+        @media (max-height: 765px) and (min-width: 960px) {
+            @content;
+        }
+    } @else if $point == phablet {
+        @media (max-width: 780px) {
+            @content;
+        }
+    } @else if $point == newMobile {
+        @media (max-width: 500px) and (min-height: 700px) {
+            @content;
+        }
+    } @else if $point == mobileonly {
+        @media (max-width: 420px) {
+            @content;
+        }
+    } @else if $point == smallMobile {
+        @media (max-width: 330px) {
+            @content;
+        }
+    }
+}

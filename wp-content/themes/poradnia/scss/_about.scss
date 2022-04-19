@@ -1,0 +1,38 @@
+.about {
+    position: relative;
+    padding-bottom: 7rem;
+    .container {
+        z-index: 2;
+    }
+    .row {
+        align-items: inherit;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        @include breakpoint(phablet) {
+            flex-wrap: wrap;
+        }
+        .col {
+            &:first-child {
+                flex: 0 0 30%;
+                width: 30%;
+                margin-right: 5rem;
+                @include breakpoint(phablet) {
+                    flex: 0 0 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    &__img {
+        position: absolute;
+        &-left {
+            bottom: 0;
+            left: 0;
+        }
+        &-right {
+            top: 0;
+            right: 0;
+        }
+    }
+}

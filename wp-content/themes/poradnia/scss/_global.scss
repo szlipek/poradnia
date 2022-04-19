@@ -1,0 +1,58 @@
+html,
+body,
+input,
+select {
+    font-family: $f-one;
+}
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 3rem;
+    box-sizing: border-box;
+    &__big {
+        max-width: 170rem;
+    }
+}
+
+main {
+    margin-top: 12rem;
+    @include breakpoint(tablet) {
+        margin-top: 7rem;
+    }
+    > section {
+        &:last-child {
+            padding-bottom: 20rem !important;
+            @include breakpoint(tablet) {
+                padding-bottom: 5rem !important;
+            }
+            @include breakpoint(phablet) {
+                padding-bottom: 3rem !important;
+            }
+        }
+    }
+    a {
+        color: $c-one;
+        transition: $transition;
+        text-decoration: none;
+        &:hover {
+            color: $c-one-hover;
+        }
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.justify-end {
+    justify-content: flex-end !important;
+}

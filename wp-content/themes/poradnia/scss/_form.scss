@@ -1,0 +1,51 @@
+form {
+    input {
+        width: 100%;
+        border: 1px solid $c-six;
+        transition: $transition;
+        background: $c-six;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        box-sizing: border-box;
+        padding: 0 2.5rem;
+        font-family: $f-one;
+        font-size: 1.6rem;
+        &:focus {
+            outline: none;
+            border-color: $c-seven;
+        }
+        &.wpcf7-not-valid {
+            border-color: $c-one;
+        }
+    }
+    textarea {
+        width: 100%;
+        border: 1px solid $c-six;
+        transition: $transition;
+        background: $c-six;
+        height: 12rem;
+        line-height: 1.9rem;
+        box-sizing: border-box;
+        padding: 1.5rem 2.5rem;
+        font-family: $f-one;
+        font-size: 1.6rem;
+        resize: none;
+    }
+    button {
+        border: none;
+    }
+    .wpcf7-not-valid-tip {
+        display: none !important;
+    }
+    .wpcf7-response-output {
+        margin: 2rem 0;
+        padding: 1rem;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    &.invalid {
+        .wpcf7-response-output {
+            border-color: $c-one !important;
+        }
+    }
+}

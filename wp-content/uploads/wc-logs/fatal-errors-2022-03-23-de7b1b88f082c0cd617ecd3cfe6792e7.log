@@ -1,0 +1,30 @@
+2022-03-23T11:48:36+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\strony\poradnia\wp-content\themes\poradnia\functions.php:468) w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 482
+
+2022-03-23T11:48:38+00:00 CRITICAL Cannot redeclare mytheme_add_woocommerce_support() (previously declared in C:\strony\poradnia\wp-content\themes\poradnia\functions.php:468) w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 482
+
+2022-03-23T13:40:59+00:00 CRITICAL Uncaught Error: Call to undefined function emove_action() in C:\strony\poradnia\wp-content\themes\poradnia\functions.php:505
+Stack trace:
+#0 C:\strony\poradnia\wp-settings.php(555): include()
+#1 C:\strony\poradnia\wp-config.php(96): require_once('C:\\strony\\porad...')
+#2 C:\strony\poradnia\wp-load.php(50): require_once('C:\\strony\\porad...')
+#3 C:\strony\poradnia\wp-blog-header.php(13): require_once('C:\\strony\\porad...')
+#4 C:\strony\poradnia\index.php(17): require('C:\\strony\\porad...')
+#5 {main}
+  thrown w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 505
+
+2022-03-23T13:41:01+00:00 CRITICAL Uncaught Error: Call to undefined function emove_action() in C:\strony\poradnia\wp-content\themes\poradnia\functions.php:505
+Stack trace:
+#0 C:\strony\poradnia\wp-settings.php(555): include()
+#1 C:\strony\poradnia\wp-config.php(96): require_once('C:\\strony\\porad...')
+#2 C:\strony\poradnia\wp-load.php(50): require_once('C:\\strony\\porad...')
+#3 C:\strony\poradnia\wp-blog-header.php(13): require_once('C:\\strony\\porad...')
+#4 C:\strony\poradnia\index.php(17): require('C:\\strony\\porad...')
+#5 {main}
+  thrown w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 505
+
+2022-03-23T14:59:43+00:00 CRITICAL syntax error, unexpected ';', expecting ')' w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 568
+
+2022-03-23T14:59:55+00:00 CRITICAL syntax error, unexpected ';', expecting ')' w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 568
+
+2022-03-23T14:59:56+00:00 CRITICAL syntax error, unexpected ';', expecting ')' w C:\strony\poradnia\wp-content\themes\poradnia\functions.php w linii 568
+

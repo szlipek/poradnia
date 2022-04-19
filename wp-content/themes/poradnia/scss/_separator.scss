@@ -1,0 +1,22 @@
+.separator {
+    padding: 7rem 0;
+    @include breakpoint(tablet) {
+        padding: 2rem 0;
+        overflow: hidden;
+    }
+    &-img {
+        @include breakpoint(tablet) {
+            width: 300%;
+            transform: translateX(-33%);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

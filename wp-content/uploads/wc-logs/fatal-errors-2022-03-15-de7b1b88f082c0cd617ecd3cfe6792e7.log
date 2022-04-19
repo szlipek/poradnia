@@ -1,0 +1,48 @@
+2022-03-15T14:47:50+00:00 CRITICAL Uncaught Error: Call to undefined function get() in C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php:7
+Stack trace:
+#0 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(437): include()
+#1 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block(Array, '', true, 20, NULL, Array)
+#2 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(679): acf_rendered_block(Array, '', true, 20, NULL, Array)
+#3 C:\strony\poradnia\wp-includes\class-wp-hook.php(307): acf_ajax_fetch_block('')
+#4 C:\strony\poradnia\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#5 C:\strony\poradnia\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#6 C:\strony\poradnia\wp-admin\admin-ajax.php(187): do_action('wp_ajax_acf/aja...')
+#7 {main}
+  thrown w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php w linii 7
+
+2022-03-15T14:48:30+00:00 CRITICAL Uncaught Error: Call to undefined function get() in C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php:7
+Stack trace:
+#0 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(437): include()
+#1 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block(Array, '', false, 20, Object(WP_Block), Array)
+#2 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block(Array, '', false, 20, Object(WP_Block))
+#3 C:\strony\poradnia\wp-includes\class-wp-block.php(255): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 C:\strony\poradnia\wp-includes\blocks.php(883): WP_Block->render()
+#5 C:\strony\poradnia\wp-includes\blocks.php(921): render_block(Array)
+#6 C:\strony\poradnia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:acf/tit...')
+#7 C:\strony\poradnia\wp-includes\plugin.php(189): WP_Hook->apply_filters('<!-- wp:acf/tit...', Array)
+#8 C:\strony\poradnia\wp-includes\r w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php w linii 7
+
+2022-03-15T14:48:32+00:00 CRITICAL Uncaught Error: Call to undefined function get() in C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php:7
+Stack trace:
+#0 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(437): include()
+#1 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block(Array, '', false, 20, Object(WP_Block), Array)
+#2 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block(Array, '', false, 20, Object(WP_Block))
+#3 C:\strony\poradnia\wp-includes\class-wp-block.php(255): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 C:\strony\poradnia\wp-includes\blocks.php(883): WP_Block->render()
+#5 C:\strony\poradnia\wp-includes\blocks.php(921): render_block(Array)
+#6 C:\strony\poradnia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:acf/tit...')
+#7 C:\strony\poradnia\wp-includes\plugin.php(189): WP_Hook->apply_filters('<!-- wp:acf/tit...', Array)
+#8 C:\strony\poradnia\wp-includes\p w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php w linii 7
+
+2022-03-15T14:48:42+00:00 CRITICAL Uncaught Error: Call to undefined function get() in C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php:7
+Stack trace:
+#0 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(437): include()
+#1 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block(Array, '', false, 337, Object(WP_Block), Array)
+#2 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block(Array, '', false, 337, Object(WP_Block))
+#3 C:\strony\poradnia\wp-includes\class-wp-block.php(255): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 C:\strony\poradnia\wp-includes\blocks.php(883): WP_Block->render()
+#5 C:\strony\poradnia\wp-includes\blocks.php(921): render_block(Array)
+#6 C:\strony\poradnia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:acf/tit...')
+#7 C:\strony\poradnia\wp-includes\plugin.php(189): WP_Hook->apply_filters('<!-- wp:acf/tit...', Array)
+#8 C:\strony\poradnia\wp-includes w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\packages.php w linii 7
+

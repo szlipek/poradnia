@@ -1,0 +1,3086 @@
+# Translation of Plugins - Flexible PDF Invoices for WooCommerce &amp; WordPress - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Flexible PDF Invoices for WooCommerce &amp; WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-07 05:46:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-rc.3\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Flexible PDF Invoices for WooCommerce &amp; WordPress - Stable (latest release)\n"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:61
+msgid "Right with space (99.99 %s)"
+msgstr "Po prawej ze spacją (99.99 %s)"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:61
+msgid "Left with space (%s 99.99)"
+msgstr "Po lewej ze spacją (%s 99.99)"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:61
+msgid "Right (99.99%s)"
+msgstr "Po prawej (99.99%s)"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:61
+msgid "Left (%s99.99)"
+msgstr "Po lewej (%s99.99)"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/OptOut.php:41
+msgid "You successfully opted out of collecting usage data by %1$s. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez %1$s została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę poprzez szybkie linki w menu wtyczek."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseDeactivation.php:31
+msgid "Plugin license deactivated. "
+msgstr "Wyłączono licencję wtyczki."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:141
+msgid "Plugin license activated. "
+msgstr "Licencja wtyczki została włączona."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:208
+msgid "%1$sEnter a valid subscription key for automatic updates."
+msgstr "%1$sWpisz poprawy klucz subskrypcji, aby otrzymać automatyczne aktualizacje wtyczki."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form.php:79
+msgid "Enter license key"
+msgstr "Wprowadź klucz licencyjny"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form.php:76
+msgid "The action failed with an error: "
+msgstr "Akcja nie powiodła się, zakończono błędem:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:66
+msgid "Activate license"
+msgstr "Aktywuj licencję"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:60
+msgid "Deactivate license"
+msgstr "Dezaktywuj licencję"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:48
+msgid "Key: "
+msgstr "Klucz: "
+
+#. Translators: my account link and docs link.
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:36
+msgid "You can find it in %1$sMy Account / API Keys%2$s tab. %3$sLearn more about activating the API key →%4$s"
+msgstr "Klucz API wtyczki znajduje się w zakładce %1$sMoje konto / Klucze API%2$s. Dowiedz się więcej o %3$sużyciu klucza API →%4$s"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:31
+msgid "In order to receive the upcoming updates and support please enter the plugin's API key obtained after the purchase."
+msgstr "W celu otrzymania nowych aktualizacji i wsparcia technicznego wpisz klucz API subskrypcji wtyczki po jej zakupie."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ActivationForm/views/activation-form-content.php:29
+msgid "Plugin's API key has been successfully activated. You are now fully eligible to receive plugin updates and support."
+msgstr "Klucz API został poprawnie aktywowany. Możesz teraz w pełni korzystać z aktualizacji wtyczki oraz wsparcia technicznego."
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:86
+msgid "Use this media"
+msgstr "Użyj tego pliku"
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:82
+msgid "Select or Upload Media"
+msgstr "Wybierz lub prześlij media"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Documents/Items/DocumentItem.php:15
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/OrderItems.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/FindProducts.php:47
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:291
+msgctxt "Units Of Measure For Items In Inventory"
+msgid "item"
+msgstr "szt."
+
+#: src/PluginFactory.php:102
+msgid "The <strong>Flexible Invoices WooCommerce</strong> cannot be run with this version of <strong>Flexible Invoices</strong>. Please upgrade to the Pro version or remove the plugin."
+msgstr "Wtyczka <strong>Faktury WooCommerce PRO</strong> nie może być uruchomiona z tą wersją <strong>Faktur WooCommerce</strong>. Proszę uaktualnić do wersji PRO lub usunąć wtyczkę."
+
+#: src/Marketing/Views/rate-box-footer.php:21
+msgid "Created with %1$s by Heroes from %2$sWP Desk%3$s - if you like Flexible Invoices rate us &rarr;"
+msgstr "Wtyczka stworzona z %1$s przez zespół Heroes z %2$sWP Desk%3$s - jeśli polubiłeś Flexible Invoices daj jej &rarr;"
+
+#: src/Marketing/Views/marketing-page.php:35
+msgid "No, I'll wait"
+msgstr "Nie, poczekam"
+
+#: src/Marketing/Views/marketing-page.php:34
+msgid "Ok, take me to support"
+msgstr "Ok, zabierz mnie do wsparcia"
+
+#: src/Marketing/Views/marketing-page.php:31
+msgid "Read also <a target=\"_blank\" href=\"https://wpde.sk/fi-support-tab-common\">common issues in WordPress & WooCommerce</a>"
+msgstr "Przeczytaj także <a target=\"_blank\" href=\"https://wpde.sk/fi-support-tab-common\">o częstych problemach w WordPress & WooCommerce</a>."
+
+#: src/Marketing/Views/marketing-page.php:30
+msgid "Attach any log files & printscreens of the issue"
+msgstr "Dołącz logi dziennika i screenshoty z problemem"
+
+#: src/Marketing/Views/marketing-page.php:29
+msgid "Describe the issue you have"
+msgstr "Opisz problem, z jakim masz do czynienia"
+
+#: src/Marketing/Views/marketing-page.php:28
+msgid "Prepare the information about the version of WordPress, WooCommerce, and Flexible Invoices (preferably your system status from WooCommerce->Status)"
+msgstr "Przygotuj informacje o wersji WordPressa, WooCommerce i Flexible Invoices (najlepiej status systemu z WooCommerce &rarr; Status)"
+
+#: src/Marketing/Views/marketing-page.php:26
+msgid "Before sending a message please:"
+msgstr "Zanim napiszesz wiadomość, proszę:"
+
+#: src/Marketing/Views/marketing-page.php:20
+msgid "Share idea"
+msgstr "Dodaj pomysł"
+
+#: src/Marketing/Views/marketing-page.php:19
+msgid "Get support"
+msgstr "Uzyskaj wsparcie"
+
+#: src/Marketing/SupportMenuPage.php:33 src/Marketing/SupportMenuPage.php:34
+msgid "Help & Support"
+msgstr "Pomoc i wsparcie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "The EU OSS procedure is an extension of MOSS. From 07.2021 VAT on every transaction above €10.000 to other EU countries must be calculated based on the customer location, and you need to collect evidence of this (IP address and Billing Address). B2B transactions are subject to reverse charge. <a href=\"%s\" target=\"_blank\">Read this guide</a> for instructions on doing this."
+msgstr "Procedura EU OSS jest rozszerzeniem systemu MOSS. Od 07.2021 VAT od każdej transakcji powyżej €10.000 do innych krajów UE musi być obliczany na podstawie lokalizacji klienta, a Ty musisz to ewidencjonować (adres IP i adres rozliczeniowy). Transakcje B2B podlegają odwrotnemu obciążeniu. <a href=\"%s\" target=\"_blank\">Przeczytaj ten przewodnik</a>, aby uzyskać więcej informacji."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:77
+msgid "OSS"
+msgstr "OSS"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/all.php:33
+msgid "Recipient"
+msgstr "Odbiorca"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/recipient.php:26
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/recipient.php:26
+msgid "Shipping"
+msgstr "Adres odbiorcy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:197
+msgid "Account number:"
+msgstr "Numer konta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:138
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:104
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/footer.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:173
+msgid "Invoice issue date:"
+msgstr "Data wystawienia faktury:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:133
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:91
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/footer.php:35
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:168
+msgid "Related to invoice:"
+msgstr "Dotyczy faktury:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterMetaBoxes.php:77
+msgid "Seller, Customer, Recipient"
+msgstr "Sprzedawca, Klient, Odbiorca"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "The data was not saved. Generate a PDF?"
+msgstr "Dane nie zostały zapisane. Czy mimo to utworzyć PDF?"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Enable page numbering."
+msgstr "Włącz numerację stron."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "PDF Numbering"
+msgstr "Numeracja stron PDF"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Enable to show column with discounts on the invoice."
+msgstr "Włączenie kolumny z rabatami na fakturze."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Discounts"
+msgstr "Rabaty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Show customer's address if different from billing"
+msgstr "Pokaż adres odbiorcy, jeśli jest inny niż adres płatności"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Show customer's address"
+msgstr "Pokaż adres odbiorcy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Do not show"
+msgstr "Nie pokazuj"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Enable if you want to show the customer's shipping address on the invoice."
+msgstr "Włącz, jeśli chcesz, aby na fakturze był widoczny adres wysyłki klienta."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Shipping Address"
+msgstr "Adres wysyłki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:160
+msgid "Invoice Template"
+msgstr "Szablon faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Reset appearance"
+msgstr "Resetuj ustawienia wyglądu"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Rows color (even)"
+msgstr "Kolor rzędów (parzystych)"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Table header background"
+msgstr "Wiersz nagłówkowy tabeli"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Table border color"
+msgstr "Kolor obramowania tabeli"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Table border thickness"
+msgstr "Grubość obramowania tabeli"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Customize table element styles."
+msgstr "Dostosuj style elementów tabeli."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Table design"
+msgstr "Wygląd tabeli"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Names of columns in the table."
+msgstr "Nazwy kolumn w tabeli"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Heading 3"
+msgstr "Nagłówek 3"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Section headers."
+msgstr "Nagłówki sekcji"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Heading 2"
+msgstr "Nagłówek 2"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Invoice number."
+msgstr "Numer faktury."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Heading 1"
+msgstr "Nagłówek 1"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Document body text."
+msgstr "Tekst główny dokumentu."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Text"
+msgstr "Tekst"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Layout"
+msgstr "Układ"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "To customize PDF layout of your invoices, buy the Advanced Templates for Flexible Invoices add-on &rarr;"
+msgstr "Aby dostosować wygląd faktur w formacie PDF, kup dodatek Zaawansowane Szablony Faktur WooCommerce &rarr;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Advanced Invoice Template"
+msgstr "Zaawansowane Szablony Faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:146
+msgid "Layout no. 3"
+msgstr "Szablon nr 3"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:146
+msgid "Layout no. 2"
+msgstr "Szablon nr 2"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:146
+msgid "Layout no. 1"
+msgstr "Szablon nr 1"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:146
+msgid "Default"
+msgstr "Domyślny"
+
+#: src/Addons/Sending/SendingTab.php:41
+msgid "To automate emails with invoices to your accountant buy the add-on Advanced Sending for Flexible Invoices &rarr;"
+msgstr "Aby zautomatyzować wysyłanie maili z fakturami do biura księgowego kup dodatek Zaawansowana Wysyłka Faktur WooCommerce &rarr;"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:121
+msgid "Buy Advanced Filters Add-on &rarr;"
+msgstr "Kup dodatek Zaawansowane Filtry &rarr;"
+
+#: src/Addons/Sending/SendingTab.php:159
+msgid "Advanced Sending"
+msgstr "Zaawansowana Wysyłka"
+
+#: src/Addons/Sending/SendingTab.php:109
+msgid "Choose the period for which you want the report automatically sent to the address from the \"Additional Recipients\" setting."
+msgstr "Wybierz okres, dla którego ma być generowana paczka z dokumentami i automatycznie wysyłana na adres z ustawienia \"Dodatkowi odbiorcy\"."
+
+#: src/Addons/Sending/SendingTab.php:107
+msgid "Schedule for sending reports"
+msgstr "Harmonogram wysyłki dokumentów."
+
+#: src/Addons/Sending/SendingTab.php:103
+msgid "Add additional recipients."
+msgstr "Dodatkowi odbiorcy"
+
+#: src/Addons/Sending/SendingTab.php:97
+msgid "Below you will set up a cyclical sending of reports. You can find out more in the <a href=\"https://wpde.sk/fi-sending-docs\" target=\"_blank\" rel=\"nofollow, noopener\">plugins docs</a>."
+msgstr "Poniżej ustawisz cykliczną wysyłkę raportów. Więcej informacji znajdziesz w <a href=\"https://www.wpdesk.pl/docs/faktury-woocommerce-zaawansowana-wysylka/\" target=\"_blank\" rel=\"nofollow, noopener\">dokumentacji wtyczki</a>.."
+
+#: src/Addons/Sending/SendingTab.php:96
+msgid "Cyclical sending of reports"
+msgstr "Cykliczne wysyłanie raportów"
+
+#: src/Addons/Sending/SendingTab.php:89 src/Addons/Sending/SendingTab.php:131
+msgid "E-mail body"
+msgstr "Treść wiadomości e-mail"
+
+#: src/Addons/Sending/SendingTab.php:85 src/Addons/Sending/SendingTab.php:91
+#: src/Addons/Sending/SendingTab.php:126 src/Addons/Sending/SendingTab.php:132
+msgid "You can use the following shortcodes: {site_title}, {site_url}, {admin_email}, {current_date}, {site_description}, {from_date}, {to_date}."
+msgstr "Możesz użyć następujących szortkodów: {site_title}, {site_url}, {admin_email}, {current_date}, {site_description}, {from_date}, {to_date}."
+
+#: src/Addons/Sending/SendingTab.php:83
+msgid "Invoices from {from_date} to {to_date}"
+msgstr "Faktury od {from_date} do {to_date}"
+
+#: src/Addons/Sending/SendingTab.php:82 src/Addons/Sending/SendingTab.php:123
+msgid "Email subject"
+msgstr "Tytuł wiadomości e-mail"
+
+#: src/Addons/Sending/SendingTab.php:75 src/Addons/Sending/SendingTab.php:115
+msgid "monthly"
+msgstr "miesięcznie"
+
+#: src/Addons/Sending/SendingTab.php:74 src/Addons/Sending/SendingTab.php:114
+msgid "weekly"
+msgstr "co tydzień"
+
+#: src/Addons/Sending/SendingTab.php:73 src/Addons/Sending/SendingTab.php:113
+msgid "daily"
+msgstr "codzienne"
+
+#: src/Addons/Sending/SendingTab.php:72 src/Addons/Sending/SendingTab.php:112
+msgid "none"
+msgstr "brak"
+
+#: src/Addons/Sending/SendingTab.php:69
+msgid "Choose the period for which you want sent documents to the address from the \"Additional Recipients\" setting."
+msgstr "Wybierz okres dla którego ma być generowana paczka z dokumentami i automatycznie wysyłana na adres z ustawienia \"Dodatkowi odbiorcy\"."
+
+#: src/Addons/Sending/SendingTab.php:67
+msgid "Schedule for sending documents"
+msgstr "Harmonogram wysyłki dokumentów"
+
+#: src/Addons/Sending/SendingTab.php:64
+msgid "Add additional recipients"
+msgstr "Dodaj kolejnych odbiorców"
+
+#: src/Addons/Sending/SendingTab.php:63 src/Addons/Sending/SendingTab.php:102
+msgid "E-mail address"
+msgstr "Odbiorcy"
+
+#: src/Addons/Sending/SendingTab.php:62 src/Addons/Sending/SendingTab.php:101
+msgid "Additional recipients"
+msgstr "Dodatkowi odbiorcy"
+
+#: src/Addons/Sending/SendingTab.php:58
+msgid "Below you will set up a cyclical sending of ZIP files with invoices. You can find out more in the <a href=\"https://wpde.sk/fi-sending-docs\" target=\"_blank\" rel=\"nofollow, noopener\">plugins docs</a>."
+msgstr "Poniżej skonfigurujesz cykliczną wysyłkę plików ZIP z fakturami. Więcej informacji znajdziesz w  <a href=\"https://www.wpdesk.pl/docs/faktury-woocommerce-zaawansowana-wysylka/\" target=\"_blank\" rel=\"nofollow, noopener\">dokumentacji wtyczki</a>."
+
+#: src/Addons/Sending/SendingTab.php:57
+msgid "Cyclical sending of invoices"
+msgstr "Cykliczne wysyłanie faktur"
+
+#: src/Addons/Sending/SendingTab.php:53
+msgid "Attach PDF file to invoice email"
+msgstr "Dołącz plik PDF do wiadomości e-mail z fakturą"
+
+#: src/Addons/Sending/SendingTab.php:52
+msgid "Attachments in the e-mail"
+msgstr "Załączniki w e-mailu"
+
+#: src/Addons/Sending/SendingTab.php:48
+msgid "Enable automatic mailing of invoices to customers"
+msgstr "Włącz automatyczne wysyłanie faktur do klientów"
+
+#: src/Addons/Sending/SendingTab.php:46
+msgid "Sending invoices to customers"
+msgstr "Wysyłanie faktur do klientów"
+
+#: src/Addons/Sending/SendingTab.php:42
+msgid "Sending invoices"
+msgstr "Wysyłka faktur"
+
+#: src/Addons/Sending/EmailStrings.php:48
+msgid "<strong>Additional invoice details:</strong>"
+msgstr "<strong>Dodatkowe dane dotyczące faktur</strong>"
+
+#: src/Addons/Sending/EmailStrings.php:46
+msgid "Please find attached sales invoices from {from_date} to {to_date}."
+msgstr "W załączniku znajdują się faktury sprzedażowe za okres {from_date} do {to_date}."
+
+#: src/Addons/Sending/EmailStrings.php:38
+msgid "Invoices from {from_date} to {to_date} "
+msgstr "Faktury od {from_date} do {to_date} "
+
+#: src/Addons/Sending/EmailStrings.php:30
+#: src/Addons/Sending/EmailStrings.php:52
+msgid "Shop Support {site_title},"
+msgstr "Obsługa sklepu {site_title},"
+
+#: src/Addons/Sending/EmailStrings.php:29
+#: src/Addons/Sending/EmailStrings.php:51
+msgid "Greetings,"
+msgstr "Pozdrawiam,"
+
+#: src/Addons/Sending/EmailStrings.php:28
+#: src/Addons/Sending/EmailStrings.php:50
+msgid "Shop email: {admin_email},"
+msgstr "E-mail sklepu: {admin_email},"
+
+#: src/Addons/Sending/EmailStrings.php:27
+#: src/Addons/Sending/EmailStrings.php:49
+msgid "Shop website: {site_url},"
+msgstr "Strona internetowa sklepu: {site_url},"
+
+#: src/Addons/Sending/EmailStrings.php:26
+msgid "<strong>Additional report details:</strong>"
+msgstr "<strong>Dodatkowe dane dotyczące raportu:</strong>"
+
+#: src/Addons/Sending/EmailStrings.php:25
+#: src/Addons/Sending/EmailStrings.php:47
+msgid "<strong>Sales from the shop:</strong> {site_title}"
+msgstr "<strong>Sprzedaż dotyczy sklepu:</strong> {site_title}"
+
+#: src/Addons/Sending/EmailStrings.php:24
+msgid "Please find attached report included sales from {from_date} to {to_date}."
+msgstr "W załączniku znajduje się raport sprzedaży za okres {from_date} do {to_date}."
+
+#: src/Addons/Sending/EmailStrings.php:16 src/Addons/Sending/SendingTab.php:124
+msgid "Report from {from_date} to {to_date} "
+msgstr "Raport od {from_date} do {to_date} "
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:112
+msgid "Show only with vat number"
+msgstr "Pokaż tylko z numerami NIP"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:107
+msgid "Document"
+msgstr "Dokument"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:106
+msgid "Document Type"
+msgstr "Typ dokumentu"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:99
+msgid "Bacs"
+msgstr "Przelew bankowy"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:94
+msgid "All taxes"
+msgstr "Wszystkie podatki"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:78
+#: src/Addons/Filters/Views/advanced-filters-html.php:91
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout1/header.php:48
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/header.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout3/header.php:99
+msgid "Payment"
+msgstr "Płatność"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:66
+msgid "---"
+msgstr "---"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:65
+msgid "Client name"
+msgstr "Nazwa klienta"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:64
+msgid "Client"
+msgstr "Klient"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:50
+msgid "Dates"
+msgstr "Daty"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:44
+#: src/Addons/Filters/Views/advanced-filters-html.php:58
+msgid "To"
+msgstr "Do"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:42
+#: src/Addons/Filters/Views/advanced-filters-html.php:56
+msgid "From"
+msgstr "Od"
+
+#: src/Plugin.php:137
+msgid "Buy PRO →"
+msgstr "Kup wersję PRO  →"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:277
+msgid "The &#8220;%1$s&#8221; plugin requires at least %2$s version of %3$s to work correctly. Please update it to its latest release."
+msgstr "Do poprawnego działania wtyczki &#8220;%1$s&#8221; wymagana jest wtyczka %3$s w wersji co najmniej %2$s. Prosimy o wykonanie aktualizacji."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:160
+msgid "Basic"
+msgstr "Podstawowe"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Cannot load data..."
+msgstr "Nie można załadować danych..."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Search..."
+msgstr "Szukaj…"
+
+#: vendor_prefixed/wpdesk/wp-helpscout-beacon/src/Beacon/Beacon.php:51
+#: vendor_prefixed/wpdesk/wp-helpscout-beacon/src/Beacon/Beacon.php:92
+msgid "When you click OK we will open our HelpScout beacon where you can find answers to your questions. This beacon will load our help articles and also potentially set cookies."
+msgstr "Po kliknięciu OK otworzy się nasza pomoc kontekstowa Help Scout, gdzie można znaleźć odpowiedzi na swoje pytania. Help Scout pokaże nasze artykuły pomocy, a także potencjalnie ustawi ciasteczka."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "If you want to issue proforma invoices automatically, select order status. When the order status is changed to selected, a proforma invoice will be generated and a link to a PDF file will be attached to an e-mail."
+msgstr "Jeśli chcesz automatycznie wystawiać faktury proforma, wybierz status zamówienia. Po zmianie statusu zamówienia na wybrany zostanie wygenerowana faktura proforma, a do wiadomości e-mail zostanie dołączony link do pliku PDF z nią."
+
+#. Translators: link.
+#: src/PluginFactory.php:87
+msgid "<strong>Flexible Invoices</strong> plugin can be removed now since the PRO version took over its functionalities.%1$s%2$sClick here%3$s to deactivate \"Flexible Invoices\" plugin."
+msgstr "<strong>Faktury WooCommerce & WordPress</strong> mogą zostać wyłączone, ponieważ wtyczka w wersji PRO zastępuje wersję darmową..%1$s%2$sKliknij tutaj%3$s , aby dezaktywować wtyczkę \"Faktury WooCommerce & WordPress\"."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Set which date will be the date of sale on the invoice."
+msgstr "Ustaw, która data będzie datą sprzedaży na fakturze."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "In new stores, order numbers begin from 1. In existing stores numbers continue from the last order number."
+msgstr "W nowych sklepach numery zamówień zaczynają się od 1. W istniejących sklepach numery są kontynuowane od ostatniego numeru zamówienia."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Enter the next correction number. The default value is 1 and changes every time a correction is issued. Existing corrections won't be changed."
+msgstr "Wprowadź kolejny numer faktury korygującej. Wartością domyślną jest 1 i zmienia się za każdym razem, gdy wystawiana jest korekta. Istniejące faktury korygujące nie zostaną zmienione."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Enter the next invoice number. The default value is 1 and changes every time an invoice is issued. Existing invoices won't be changed."
+msgstr "Wprowadź kolejny numer faktury. Wartością domyślną jest 1 i zmienia się za każdym razem, gdy wystawiana jest faktura. Istniejące faktury nie zostaną zmienione."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Proforma Invoice Settings"
+msgstr "Ustawienia Faktury Proformy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:131
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:101
+msgid "Address line 2"
+msgstr "Druga linia adresu"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:35
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:121
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:35
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:91
+msgid "Address line 1"
+msgstr "Pierwsza linia adresu"
+
+#: flexible-invoices.php:55
+msgid "https://flexibleinvoices.com/"
+msgstr "https://www.wpdesk.pl/sklep/faktury-woocommerce/"
+
+#: flexible-invoices.php:54
+msgid "https://www.flexibleinvoices.com/products/flexible-invoices-woocommerce/"
+msgstr "https://www.wpdesk.pl/sklep/faktury-woocommerce/"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/order/vat_number.php:13
+msgid "I want an invoice:"
+msgstr "Chcę fakturę:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:109
+msgid "Invoice Formatted Number"
+msgstr "Format numeracji faktur"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:100
+msgid "Invoice Number"
+msgstr "Numer dokumentu księgowego"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:97
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:263
+msgid "Click this icon to enter item name manually"
+msgstr "Kliknij tę ikonę, aby wprowadzić nazwę elementu ręcznie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/document-issued.php:23
+msgid "Issue"
+msgstr "Wystaw"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:121
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:57
+msgid "Remove image"
+msgstr "Usuń obrazek"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:112
+#: vendor_prefixed/wpdesk/wp-forms/templates/input-image.php:46
+msgid "Set image"
+msgstr "Ustaw obrazek"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-end.php:14
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/tax-rates/form-end.php:14
+msgid "Insert"
+msgstr "Wstaw"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:39
+msgid "Check how to issue proforma invoices."
+msgstr "Sprawdź jak wystawiać proformy."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Enter the label for \"date of sale\" visible on the PDF invoice, i.e. \"date of delivery\". It will be used on all new and edited invoices."
+msgstr "Wpisz etykietę &quot;data sprzedaży&quot; widoczne na fakturze PDF, t.j. &quot;data dostawy&quot;. Będzie on używany na wszystkich nowych i edytowanych fakturach."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "If you want to issue invoices automatically, select order status. When the order status is changed to selected an invoice will be generated and a link to a PDF file will be attached to an e-mail."
+msgstr "Jeśli chcesz, aby faktury były wystawiane automatycznie, wybierz status zamówienia. Po zmianie statusu zamówienia na wybrany faktura zostanie wygenerowana, a link do pliku PDF zostanie dołączony do wiadomości e-mail."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Issue invoices automatically"
+msgstr "Automatyczne wystawianie faktur"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Change invoice status to paid after an order is completed"
+msgstr "Zmiana statusu faktury na opłaconą po zakończeniu zamówienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Invoice Status"
+msgstr "Status faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Invoice Settings"
+msgstr "Ustawienia faktur."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:40
+msgid "Check how to issue invoices."
+msgstr "Sprawdź jak wystawiać faktury."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "VAT Number will have to be entered without hyphens, spaces and optionally can be prefixed with country code."
+msgstr "Numer NIP musi być wpisany bez myślników, spacji, a opcjonalnie może być poprzedzony kodem kraju."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Validate VAT Number"
+msgstr "Waliduj NIP"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "VAT Number field required"
+msgstr "Pole NIP jest wymagane"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Placeholder"
+msgstr "Symbol zastępczy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Label"
+msgstr "Etykieta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Add VAT Number field to checkout"
+msgstr "Dodaj pole NIP do formularza zamówienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "If enabled the customer can choose to get an invoice. If automatic sending is enabled invoices will be issued only for these orders."
+msgstr "Jeśli ta opcja jest włączona, klient może wybrać, czy chce otrzymać fakturę. Jeśli włączone jest automatyczne wysyłanie faktur, będą one wystawiane tylko dla tych zamówień."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Ask the customer if he wants an invoice"
+msgstr "Pytaj klienta, czy chce fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+msgid "Warning. If you use a plugin for editing <a href=\"%s\">checkout fields</a> it may override the following settings."
+msgstr "Uwaga! Jeśli używasz wtyczki do edycji <a href=\"%s\">pól zamówienia</a>, może ona nadpisać te ustawienia."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:44
+msgid "Checkout"
+msgstr "Zamówienie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/SettingsForm.php:107
+msgid "Your settings have been saved."
+msgstr "Twoje ustawienia zostały zapisane."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/CurrencySettings.php:42
+msgid "Currencies"
+msgstr "Waluty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/DocumentsSettings.php:92
+msgid "Documents"
+msgstr "Dokumenty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "Read user's manual →"
+msgstr "Przeczytaj instrukcję użytkownika &rarr;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "Company"
+msgstr "Firma"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Order/AdminOrderActions.php:33
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/document-issued.php:19
+msgid "View"
+msgstr "Zobacz"
+
+#. Translators: %s vat number label.
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Checkout.php:66
+msgid "Please enter a valid %s without hyphens and spaces, with valid country prefix (EU VAT Number)."
+msgstr "Proszę wpisać prawidłowy %s bez myślników i spacji, z prawidłowym prefiksem kraju (numer VAT UE)."
+
+#. Translators: %s vat number label.
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Checkout.php:63
+msgid "Please enter a valid %s. Do not enter hyphens or spaces. Optionally add country prefix (EU VAT Number)."
+msgstr "Proszę wpisać prawidłowe %s. Nie wprowadzaj myślników ani spacji. Opcjonalnie dodaj prefiks kraju (numer VAT UE)."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/FormFields/InvoiceAsk.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/FormFields/InvoiceAsk.php:79
+msgid "no"
+msgstr "Nie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/FormFields/InvoiceAsk.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/FormFields/InvoiceAsk.php:79
+msgid "yes"
+msgstr "Tak"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/InvoicesIntegration.php:368
+msgid "I want an invoice"
+msgstr "Chcę fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:49
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:49
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:42
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:42
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:41
+msgid "Discount"
+msgstr "Rabat"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/BulkActions.php:72
+msgid "Invoices was sent."
+msgstr "Faktura została wysłana."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/CreateDocumentForOrder.php:157
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/CreateDocumentForOrder.php:160
+msgid "Document cannot be created"
+msgstr "Dokument nie mógł zostać utworzony"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "No results."
+msgstr "Brak wyników."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/PDF/GeneratePDF.php:216
+msgid "This document doesn't exist or was deleted."
+msgstr "Ten dokument nie istnieje lub został usunięty."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/InvoicesIntegration.php:113
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Order/AdminOrderActions.php:36
+msgid "Issue Invoice"
+msgstr "Wystaw Fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/SettingsWordpressStrategy.php:21
+msgid "Do not issue"
+msgstr "Nie wystawiaj"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/EmailIntegration.php:55
+msgid "Send by e-mail"
+msgstr "Wyślij emailem"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/EmailInvoice.php:18
+msgid "[{site_title}] Invoice for order #{order_number}"
+msgstr "[{site_title}] Faktura do zamówienia #{order_number}"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/EmailInvoice.php:17
+msgid "Email with invoice"
+msgstr "Email z fakturą"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/EmailInvoice.php:16
+msgid "Email with invoice (Flexible Invoices)."
+msgstr "Email z fakturą (Faktury WooCommerce)."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/EmailInvoice.php:15
+msgid "Invoice (Flexible Invoices)"
+msgstr "Faktura (Faktury WooCommerce)"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Multipart"
+msgstr "Multipart"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "HTML"
+msgstr "HTML"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Plain text"
+msgstr "Zwykły tekst"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Choose which format of email to send."
+msgstr "Wybierz format wiadomości e-mail, którą chcesz wysłać."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Email type"
+msgstr "Typ wiadomości"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Email Heading"
+msgstr "Nagłówek wiadomości e-mail"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/BaseEmail.php:63
+msgid "Subject"
+msgstr "Temat"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:84
+msgid "Customer details"
+msgstr "Dane klienta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:20
+msgid "Download Invoice: <a href=\"%s\"><b>%s</b></a>"
+msgstr "Pobierz Fakturę: <a href=\"%s\"><b>%s</b></a>"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:35
+msgid "Your details"
+msgstr "Twoje dane"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:22
+msgid "Order date: %s"
+msgstr "Data zamówienia: %s"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:21
+msgid "Order number: %s"
+msgstr "Numer zamówienia: %s"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:19
+msgid "Download Invoice: %s"
+msgstr "Pobierz Fakturę: %s"
+
+#: vendor_prefixed/wpdesk/wp-forms/templates/product-select.php:22
+msgid "Search for a product&hellip;"
+msgstr "Szukaj produktu&hellip;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "VAT OSS rate description"
+msgstr "Opis dla stawki VAT OSS"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Taxes.php:39
+msgid "Reverse charge"
+msgstr "Odwrotne obciążenie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Reverse charge description"
+msgstr "Opis odwrotnego obciążenia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Option validates the customer IP address against their billing address, and prompts the customer to self-declare their address if they do not match."
+msgstr "Opcja waliduje adres IP klienta z jego adresem rozliczeniowym i zachęca klienta do samodzielnego zadeklarowania swojego adresu, jeśli nie pasują."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Collect and Validate Evidence"
+msgstr "Zbieranie i potwierdzanie dowodów"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Select the tax classes that the plugin shall use to handling the OSS."
+msgstr "Wybierz klasy podatkowe, których wtyczka ma używać do obsługi systemu OSS."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Tax class for OSS"
+msgstr "Klasa podatkowa dla OSS"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Accept the order and remove VAT."
+msgstr "Akceptuj zamówienia i usuwaj VAT."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Accept the order, but do not remove VAT."
+msgstr "Akceptuj zamówienia, ale nie usuwaj VAT"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Reject the order and show the customer an error message."
+msgstr "Odrzucaj zamówienia i pokazuj klientom komunikat błędu."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Failed Validation Handling"
+msgstr "Obsługa nieudanej walidacji"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "VIES Validation"
+msgstr "Walidacja VIES"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "OSS Handling"
+msgstr "Wsparcie dla OSS"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Exchange rates are taken from European Central Bank table at the most recent exchange rate."
+msgstr "Kursy walutowe pochodzą z tabeli Europejskiego Banku Centralnego według najbardziej aktualnego kursu wymiany."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Exchange to currency"
+msgstr "Przeliczanie na walutę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "This option adds to the invoice a table with the conversion of the VAT value into local currency."
+msgstr "Opcja ta dodaje do faktury tabelę z przeliczeniem wartości VAT na walutę lokalną."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Currency exchange table"
+msgstr "Tabela wymiany walut"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Use SKU numbers on invoices"
+msgstr "Użyj numerów SKU jako PKWiU/PKOB  na fakturze"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:209
+msgid "Add order number to an invoice"
+msgstr "Dodaj numer zamówienia do faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Do not add free line items to invoices (includes free products and free shipping)"
+msgstr "Nie dodawaj bezpłatnych pozycji do faktur (w tym bezpłatnych produktów i bezpłatnej wysyłki)."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Free line items"
+msgstr "Pozycje z bezpłatnymi produktami"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Do not automatically issue invoices for free orders"
+msgstr "Nie wystawiaj automatycznie faktur dla darmowych zamówień"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Free Orders"
+msgstr "Darmowe zamówienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Use order completed date"
+msgstr "Użyj daty zrealizowania zamówienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Use order date"
+msgstr "Użyj daty sprzedaży"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Date of sale on the invoice"
+msgstr "Data sprzedaży na fakturze"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "Sequential Order Numbers"
+msgstr "Kolejność numerów zamówień"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+msgid "WooCommerce Settings"
+msgstr "Ustawienia WooCommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:72
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:73
+msgid "General"
+msgstr "Ogólne"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:39
+msgid "Read WooCommerce integration manual &rarr;"
+msgstr "Przeczytaj instrukcję integracji WooCommerce &rarr;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/DefaultSettings.php:49
+msgid "Invoice Proforma"
+msgstr "Faktura Proforma"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Issue proforma invoices automatically"
+msgstr "Automatyczne wystawianie proform"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:96
+msgid "Proforma"
+msgstr "Proforma"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Reason"
+msgstr "Powód"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "For suffixes use the following short tags: <code>{DD}</code> for day, <code>{MM}</code> for month, <code>{YYYY}</code> for year."
+msgstr "Dla sufiksów użyj następujących znaczników: <code>{DD}</code> dla dnia, <code>{MM}</code> dla miesiąca, <code>{YYYY}</code> dla roku."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Suffix"
+msgstr "Sufiks"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "For prefixes use the following short tags: <code>{DD}</code> for day, <code>{MM}</code> for month, <code>{YYYY}</code> for year."
+msgstr "Dla prefiksów użyj następujących znaczników: <code>{DD}</code> dla dnia, <code>{MM}</code> dla miesiąca, <code>{YYYY}</code> dla roku."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/DefaultSettings.php:49
+msgid "Corrected invoice"
+msgstr "Faktury korygujące"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Prefix"
+msgstr "Prefix"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Next Number"
+msgstr "Następny numer"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Number Reset"
+msgstr "Resetuj numer"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Correction"
+msgstr "Korekta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Upgrade to PRO"
+msgstr "Ulepsz do wersji pro"
+
+#: src/PluginFactory.php:128
+msgid "You are using <strong>an outdated version of Flexible Invoices WooCommerce</strong>. We recommended upgrade to version 3.0+. Do it now!"
+msgstr "Korzystasz z <strong>nieaktualnej wersji Faktur PDF WooCommerce</strong>. Zalecamy aktualizację do wersji 3.0+. Zrób to teraz!"
+
+#. Author URI of the plugin
+msgid "https://www.flexibleinvoices.com/"
+msgstr "https://www.flexibleinvoices.com/"
+
+#. Description of the plugin
+#: flexible-invoices.php:53
+msgid "Flexible Invoices for WooCommerce and WordPress made simple. Available <a href=\"https://www.flexibleinvoices.com/products/flexible-invoices-woocommerce/?utm_source=wp-admin-plugins&utm_medium=link&utm_campaign=flexible-invoices-plugins-upgrade-link\" target=\"_blank\">PRO extension</a> with automations and different types of documents."
+msgstr "Faktury PDF WooCommerce i WordPress są dostępne <a href=\"https://www.wpdesk.pl/sklep/faktury-woocommerce/?utm_source=wp-admin-plugins&utm_medium=link&utm_campaign=flexible-invoices-plugins-upgrade-link\" target=\"_blank\">w rozszerzeniu PRO</a> z automatyzacjami i różnymi typami dokumentów."
+
+#. Plugin Name of the plugin
+#: flexible-invoices.php:52
+msgid "Flexible Invoices for WooCommerce and WordPress"
+msgstr "Faktury PDF WooCommerce &amp; WordPress"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "- Create promotions like Buy One Get One Free to get more sales in your store."
+msgstr "- Pozyskaj nowych klientów dzięki obecności w porównywarkach cen - Ceneo, Nokaut, Homebook i Domodi."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "Flexible Pricing"
+msgstr "Porównywarki Cen XML WooCommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "https://www.wpdesk.net/products/flexible-pricing-woocommerce/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=flexible-pricing-woocommerce"
+msgstr "https://www.wpdesk.pl/sklep/porownywarki-cen-xml-woocommerce/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=porownywarki-cen-xml-woocommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "- Conditionally hide payment methods for cash on delivery shipping options. Add fees to payment methods."
+msgstr " - Ukrywaj metody płatności na podstawie metod wysyłki i zwiększaj konwersje zakupowe."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "https://www.wpdesk.net/products/active-payments-woocommerce/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=active-payments-plugin"
+msgstr "https://www.wpdesk.pl/sklep/aktywne-platnosci-woocommerce/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=active-payments-plugin"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "- Speed up the fulfillment process, packing and shipping by printing address labels and order details."
+msgstr "- Zautomatyzuj płatności i skorzystaj z niższych prowizji dzięki WP Desk!"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "Print Orders and Address Labels"
+msgstr "PayU WooCommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "https://www.wpdesk.net/products/woocommerce-print-orders-address-labels/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=woocommerce-print-orders-address-labels"
+msgstr "https://www.wpdesk.pl/sklep/payu-woocommerce/?utm_source=flexible-invoices-settings&amp;utm_medium=link&amp;utm_campaign=payu-woocommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/seller.php:50
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/seller.php:50
+msgid "Bank"
+msgstr "Bank"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:301
+msgid "<a href=\"%s\">Duplicated <span class=\"count\">(%d)</span></a>"
+msgstr "<a href=\"%s\">Zdublowane <span class=\"count\">(%d)</span></a>"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Choose a user whose display name will be visible on the invoice in the signature section."
+msgstr "Wybierz użytkownika, którego imię i nazwisko będzie wyświetlane w sygnaturze faktury."
+
+#. Translators: %s url.
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/DuplicatesNotice.php:29
+msgid "<strong>Warning!</strong> There are documents with the same number in the invoice list. Check <a href=\"%s\">here</a>."
+msgstr "<strong>Warning!</strong> There are documents with the same number in the invoice list. Check <a href=\"%s\">here</a>."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:93
+msgid "The name of invoice is duplicated!"
+msgstr "Nazwa faktury jest duplikatem!"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker_With_Update_Disable.php:29
+msgid "The &#8220;%s&#8221; plugin disables temporarily as required %s plugin is being upgraded."
+msgstr "Wtyczka &#8220;%s&#8221; jest chwilowo nieaktywna, ponieważ wymagana wtyczka %s jest właśnie aktualizowana."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:404
+msgid "The &#8220;%s&#8221; plugin requires activating %s plugin. <a href=\"%s\">Activate %s →</a>"
+msgstr "Wtyczka &#8222;%s&#8221; wymaga wtyczki %s. <a href=\"%s\">Włącz %s →</a>"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:398
+msgid "The &#8220;%s&#8221; plugin requires free %s plugin. <a href=\"%s\">Install %s →</a>"
+msgstr "Wtyczka &#8222;%s&#8221; wymaga bezpłatnej wtyczki %s. <a href=\"%s\">Zainstaluj %s →</a>"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Info"
+msgstr "Informacja"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Notice"
+msgstr "Powiadomienie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Warning"
+msgstr "Ostrzeżenie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Error"
+msgstr "Błąd"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Critical"
+msgstr "Błąd krytyczny"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Alert"
+msgstr "Ostrzeżenie"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Emergency"
+msgstr "Wypadek"
+
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Disabled"
+msgstr "Wyłączono"
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:36
+msgid "Can not enable WP Desk Debug log! Cannot create file %s!"
+msgstr "Nie można włączyć WP Desk Debug log! Nie można utworzyć katalogu %s!"
+
+#. Translators: directory.
+#: vendor_prefixed/wpdesk/wp-logs/src/WP/WPCapture.php:23
+msgid "Can not enable WP Desk Debug log! Cannot create directory %s or this directory is not writeable!"
+msgstr "Nie można włączyć WP Desk Debug log! Nie można utworzyć katalogu %s lub brak uprawnień do zapisu w tym katalogu!"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:58
+msgid "Activated"
+msgstr "Włączono"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:56
+msgid "Deactivated"
+msgstr "Wyłączono"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Data"
+msgstr "Dane subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Subscription Status"
+msgstr "Status subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:39
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/class-wpdesk-helper-list-table.php:27
+msgid "No WP Desk plugins found."
+msgstr "Nie znaleziono wtyczek WP Desk."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:37
+msgid "Get your subscription keys <a href=\"%s\" target=\"_blank\">here</a>. You can activate/deactivate API keys <strong>unlimited times on different domains</strong> as long as you have an active subscription."
+msgstr "Pobierz klucze API <a href=\"%s\" target=\"_blank\">tutaj</a>. Możesz aktywować i dezaktywować klucze API <strong>dowolną ilość razy na różnych domenach</strong>, pod warunkiem, że subskrypcja jest aktywna."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/licenses.php:27
+msgid "WP Desk Subscriptions"
+msgstr "Subskrypcje WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:47
+msgid "Deactivate"
+msgstr "Wyłącz"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:41
+msgid "Activate"
+msgstr "Włącz"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:25
+msgid "Email:"
+msgstr "Adres e-mail:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/views/license-actions.php:14
+msgid "Key:"
+msgstr "Klucz:"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/License/Action/LicenseActivation.php:132
+msgid "Connection failed to the Subscription Key API server. Try again later."
+msgstr "Nie udało się połączyć z serwerem subskrypcji. Spróbuj później."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/Page/LicensePage.php:41
+msgid "Subscriptions"
+msgstr "Subskrypcje"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:345
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr "<b>Uwaga!</b> Blokujesz zewnętrzne połączenia i nie będziesz otrzymywać aktualizacji wtyczki: %s. Proszę dodaj host %s do %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:328
+msgid "The %1$s%2$s%3$s API Key has not been activated, so you won't be supported and your plugin won't be updated! %4$sClick here%5$s to activate the API key and the plugin."
+msgstr "Klucz API wtyczki %s%s%s nie został aktywowany, więc nie otrzymasz wsparcia i aktualizacji wtyczki. %sKliknij tutaj%s, aby aktywować klucz API wtyczki."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:144
+msgid "Subscription Deactivation"
+msgstr "Dezaktywacja subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager.php:143
+msgid "Subscription Activation"
+msgstr "Aktywacja subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:309
+msgid "Deactivates an API Key so it can be used on another blog."
+msgstr "Dezaktywuje klucz API, aby można było go użyć na innej stronie."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:247
+msgid "Plugin subscription deactivated. "
+msgstr "Subskrypcja wtyczki dezaktywowana. "
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:226
+msgid "The subscription could not be deactivated. Use the Subscription Deactivation tab to manually deactivate the subscription before activating a new subscription."
+msgstr "Subskrypcja nie może być dezaktywowana. Użyj ręcznej dezaktywacji subskrypcji przed aktywacją nowej subskrypcji."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:154
+msgid "Connection failed to the API Key server. Try again later."
+msgstr "Nie udało się połączyć z serwerem subskrypcji. Spróbuj później."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:149
+msgid "Plugin activated. "
+msgstr "Wtyczka została włączona. "
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:84
+msgid "Deactivate API Key"
+msgstr "Dezaktywuj klucz API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:83
+msgid "API Key Deactivation"
+msgstr "Dezaktywacja klucza API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:80
+msgid "API Subscription email"
+msgstr "E-mail API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:79
+msgid "API Subscription Key"
+msgstr "Klucz API"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:78
+msgid "API Key Status"
+msgstr "Status subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:77
+msgid "API Key Activation"
+msgstr "Aktywacja subskrypcji"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-api-manager-menu.php:64
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:457
+msgid "You changed the subscription for %s, so you will need to enter your new API Key in the settings page. The API Key should have arrived in your email inbox, if not you can get it by logging into your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s została zmieniona. Możesz zarządzać subskrypcjami <a href=\"%s\" target=\"_blank\">tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:446
+msgid "%s has not been activated. Go to the settings page and enter the API key and subscription email to activate %s."
+msgstr "Wtyczka %s nie została aktywowana. Przejdź do ustawień i wpisz klucz API i e-mail, aby aktywować %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:435
+msgid "Download permission for %s has been revoked possibly due to a API key or subscription expiring. You can reactivate or purchase a API key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Możliwość pobrania wtyczki: %s została zablokowana. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:424
+msgid "A API key for %s could not be found. Maybe you forgot to enter a API key when setting up %s, or the key was deactivated in your account. You can reactivate or purchase a subscription key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s nie została znaleziona. Być może zapomniałeś wpisać klucza API przy aktywacji: %s lub klucz został dezaktywowany. Możesz zarządzać subskrypcjami <a href=\"%s\" target=\"_blank\">tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:413
+msgid "A subscription for %s could not be found. You can purchase a subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s nie została znaleziona. Możesz zarządzać subskrypcjami <a href=\"%s\" target=\"_blank\">tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:402
+msgid "The subscription for %s has been placed in the trash and will be deleted soon. You can purchase a new subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s została anulowana. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:391
+msgid "The subscription for %s is still pending. You can check on the status of the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s jest przetwarzana. Aby sprawdzić status subskrypcji, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:380
+msgid "The subscription for %s has been suspended. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s została zawieszona. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:369
+msgid "The subscription for %s has expired. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s wygasła. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:358
+msgid "The subscription for %s has been cancelled. You can renew the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new API key will be emailed to you after your order has been completed."
+msgstr "Subskrypcja na wtyczkę: %s została anulowana. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:347
+msgid "The subscription for %s is on-hold. You can reactivate the subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s jest wstrzymana. Możesz zarządzać subskrypcjami <a href=\"%s\" target=\"_blank\">tutaj</a>."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-license/src/ApiManager/class-wc-plugin-update.php:336
+msgid "The API key for %s has expired. You can reactivate or purchase a API key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr "Subskrypcja na wtyczkę: %s wygasła. Aby odnowić subskrypcję, <a href=\"%s\" target=\"_blank\">kliknij tutaj</a>."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterMetaBoxes.php:82
+#: vendor_prefixed/wpdesk/wp-logs/src/deprecated/wpdesk-logger.php:59
+msgid "Debug"
+msgstr "Debugowanie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:63
+msgid "Enable"
+msgstr "Włącz"
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:470
+msgid "The &#8220;%s&#8221; plugin cannot run without %s php setting set to %s. Please contact your host and ask them to set %s."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez ustawienia php %s ustawionego na %s. Skontaktuj się z administratorem hostingu i poproś o ustawienie %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:445
+msgid "The &#8220;%s&#8221; plugin cannot run without %s php module installed. Please contact your host and ask them to install %s."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez modułu php: %s. Skontaktuj się z administratorem hostingu i poproś o instalację %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:349
+msgid "The &#8220;%s&#8221; plugin cannot run without %s active. Please install and activate %s plugin."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać bez aktywacji %s. Zainstaluj i aktywuj wtyczkę %s."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:190
+msgid "The &#8220;%s&#8221; plugin cannot run without OpenSSL module version at least %s. Please update OpenSSL module."
+msgstr "Wtyczka &#8222;%s&#8221; nie może działać bez OpenSSL co najmniej w wersji %s. Proszę zaktualizować moduł OpenSSL."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:187
+msgid "The &#8220;%s&#8221; plugin cannot run on WooCommerce versions older than %s. Please update WooCommerce."
+msgstr "Wtyczka &#8222;%s&#8221; nie może działać z WooCommerce w wersji starszej niż %s. Proszę zaktualizować WooCommerce."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:184
+msgid "The &#8220;%s&#8221; plugin cannot run on WordPress versions older than %s. Please update WordPress."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać w wersjach WordPress starszych niż %s. Prosimy o aktualizację WordPress."
+
+#: vendor_prefixed/wpdesk/wp-basic-requirements/src/Basic_Requirement_Checker.php:181
+msgid "The &#8220;%s&#8221; plugin cannot run on PHP versions older than %s. Please contact your host and ask them to upgrade."
+msgstr "Wtyczka &#8220;%s&#8221; nie może działać w wersjach PHP starszych niż %s. Skontaktuj się z administratorem hostingu i poproś o aktualizację."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Minimum length %."
+msgstr "Minimum length %."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Searching..."
+msgstr "Szukam…"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "More..."
+msgstr "Więcej…"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "Select the User Roles that will be given permission to manage Invoices. The administrator has unlimited permissions."
+msgstr "Wybierz role użytkowników, którym przyznane zostaną uprawnienia do zarządzania fakturami. Administrator ma nieograniczone uprawnienia."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "Roles"
+msgstr "Uprawnienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:27
+msgid "Check how to issue corrective invoices."
+msgstr "Sprawdź w jaki sposób wystawiać faktury korygujące."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:9
+msgid "Amount"
+msgstr "Kwota"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:36
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:8
+msgid "Price"
+msgstr "Cena"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:22
+msgid "We need your help to improve <strong>WP Desk plugins</strong>, so they are more useful for you and the rest of <strong>30,000+ users</strong>. By collecting data on how you use our plugins, you will help us a lot. We will not collect any sensitive data, so you can feel safe."
+msgstr "Potrzebujemy Twojej pomocy, aby dalej rozwijać <strong>wtyczki WP Desk</strong> i były one jeszcze bardziej pomocne dla Ciebie i pozostałych ponad <strong>30 000 użytkowników</strong>. Zbierając dane na temat tego jak korzystasz z naszych wtyczek bardzo nam w tym pomożesz. Nie będziemy zbierać żadnych danych wrażliwych, więc możesz czuć się bezpiecznie."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:80
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:73
+msgid "Anonymized and non-sensitive store usage information"
+msgstr "Tylko niewrażliwe i anonimowe dane o użytkowaniu sklepu"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:58
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:51
+msgid "WP version, PHP info"
+msgstr "Wersja WP, PHP info"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Select when to reset the invoice number to 1."
+msgstr "Wybierz kiedy zresetować numer faktury do 1."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Select when to reset the correction number to 1."
+msgstr "Wybierz kiedy zresetować numer korekty na 1."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "None"
+msgstr "Nie resetuj"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Monthly"
+msgstr "Miesięcznie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Yearly"
+msgstr "Co roku"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Refund"
+msgstr "Zwrot"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "/{MM}/{YYYY}"
+msgstr "/{MM}/{YYYY}"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Enable automatic corrections generation for order refunds."
+msgstr "Włącz automatyczne wystawianie korekt do zwracanych zamówień"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Automatic Corrections"
+msgstr "Automatyczne korekty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:41
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+msgid "Correction Settings"
+msgstr "Ustawienia korekt"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:75
+msgid "Corrections"
+msgstr "Korekty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:446
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:180
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:180
+msgid "After correction"
+msgstr "Po korekcie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:359
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:83
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:83
+msgid "Before correction"
+msgstr "Przed korektą"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Note, unsaved changes will not be included in the email you send."
+msgstr "Nie zapisane zmiany nie będą dołączone do wysłanego maila."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Could not send invoice."
+msgstr "Nie można wysłać faktury."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "You can not send an invoice not issued for the WooCommerce order."
+msgstr "Nie możesz wysłać faktury nie wystawionej dla zamówienia WooCommerce."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "You have sent an invoice to: "
+msgstr "Wysłałeś fakturę do: "
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "An unexpected error occurred: "
+msgstr "Wystąpił nieoczekiwany błąd: "
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Completed successfully."
+msgstr "Zakończone pomyślnie."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Assets.php:95
+msgid "Generate, please wait ..."
+msgstr "Generowanie, proszę czekać …"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-opt-out-notice.php:11
+msgid "You successfully opted out of collecting usage data by WP Desk. If you change your mind, you can always opt in later in the plugin's quick links."
+msgstr "Twoja rezygnacja ze zbierania danych użytkowania wtyczek przez WP Desk została przyjęta. Jeśli zmienisz zdanie, zawsze możesz włączyć zgodę poprzez szybkie linki w menu wtyczek."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:41
+msgid "Allow"
+msgstr "Zezwól"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:126
+msgid "Submit &amp; Deactivate"
+msgstr "Wyślij i wyłącz"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:107
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:110
+msgid "Skip &amp; Deactivate"
+msgstr "Pomiń i dezaktywuj"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:98
+msgid "Kindly tell us the reason so we can improve"
+msgstr "Proszę napisać nam co moglibyśmy poprawić"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:83
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "Tymczasowe wyłączenie w ramach debugowania problemu."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:73
+msgid "I no longer need the plugin"
+msgstr "Wtyczka nie jest już mi dłużej potrzebna"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:63
+msgid "I only needed the plugin for a short period"
+msgstr "Wtyczka była potrzebna tylko na krótko"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:53
+msgid "What's the plugin's name?"
+msgstr "Jaka jest nazwa wtyczki?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:48
+msgid "I found a better plugin"
+msgstr "Mam lepszą wtyczkę"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:38
+msgid "The plugin broke my site"
+msgstr "Wtyczka zepsuła moją witrynę"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:28
+msgid "The plugin suddenly stopped working"
+msgstr "Wtyczka nagle przestała działać"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:19
+msgid " If you have a moment, please let us know why you are deactivating plugin (anonymous feedback):"
+msgstr " Jeśli masz chwilę, prosimy daj nam znać dlaczego wtyczkę została wyłączona (anonimowo):"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:11
+msgid "You are deactivating %s plugin."
+msgstr "Dezaktywowałeś wtyczkę %s."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:90
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:83
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:27
+msgid "Find out more &raquo;"
+msgstr "Dowiedz się więcej &raquo;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:77
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:70
+msgid "Your Store Overview"
+msgstr "Dane sklepu"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:69
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:62
+msgid "Current settings and usage information of WP Desk plugins"
+msgstr "Ustawienia i informacje o użytkowaniu wtyczek WP Desk"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:66
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:59
+msgid "Plugin Usage"
+msgstr "Dane użytkowania wtyczki"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:55
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:48
+msgid "Your Site Overview"
+msgstr "Dane witryny"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:46
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:39
+msgid "What permissions are being granted?"
+msgstr "Jakie uprawnienia są przyznawane?"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:39
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:32
+msgid "Skip"
+msgstr "Pomiń"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:34
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:27
+msgid "Allow & Continue &rarr;"
+msgstr "Pozwól i kontunuuj &rarr;"
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:25
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:18
+msgid "Please help us improve our plugins! If you opt-in, we will collect some non-sensitive data and usage information anonymously. If you skip this, that's okay! All plugins will work just fine."
+msgstr "Proszę pomóż nam udoskonalić nasze wtyczki! Jeśli się zgodzisz, będziemy zbierać niewrażliwe dane użytkowania anonimowo. Jeśli pominiesz ten krok, w porządku! Wszystkie wtyczki będą działać."
+
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/views/tracker-connect.php:22
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-connect.php:15
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-notice.php:19
+msgid "Hey %s,"
+msgstr "Hej %s,"
+
+#: src/Tracker/Tracker.php:62
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:53
+msgid "Opt-out"
+msgstr "Wypisz się"
+
+#: src/Tracker/Tracker.php:59
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/PSR/WPDesk/Tracker/PluginActionLinks.php:50
+msgid "Opt-in"
+msgstr "Zapisz się"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/BulkActions.php:67
+msgid "%s invoice marked as paid."
+msgid_plural "%s invoices marked as paid."
+msgstr[0] "%s faktura została oznaczona jako zapłacona."
+msgstr[1] "%s faktury zostały oznaczone jako zapłacone."
+msgstr[2] "%s faktur zostało oznaczonych jako zapłacone."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:152
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/seller.php:14
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/seller.php:14
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/all.php:14
+msgid "Seller"
+msgstr "Sprzedawca"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:41
+msgid "Buy Advanced Reports &rarr;"
+msgstr "Kup Zaawansowane Raporty &rarr;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:28
+msgid "Sorting by issue date, sale date, payment date."
+msgstr "Sortowanie po datach wystawienia, sprzedaży, płatności."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:25
+msgid "Include or exclude invoices for WooCommerce orders."
+msgstr "Załączać lub wykluczać faktury dla zamówień WooCommerce."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:22
+msgid "Advanced filtering by: issue date, sale date, payment date, taxes, currencies."
+msgstr "Zaawansowane filtrowanie po: datach wystawienia, sprzedaży, płatności, podatkach, walutach."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:19
+msgid "Adjust columns displayed in the reports."
+msgstr "Możliwość ustawienia kolumn widocznych w raportach."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/advanced-reports-ad.php:14
+msgid "Buy Advanced Reports for Flexible Invoices to get:"
+msgstr "Kup Zaawansowane Raporty dla faktur, aby otrzymać:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:106
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:105
+msgid "Currency:"
+msgstr "Waluta:"
+
+#. Author of the plugin
+msgid "WP Desk"
+msgstr "WP Desk"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/flexible-invoices/"
+msgstr "https://www.wpdesk.pl/sklep/faktury-wordpress/"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/tax-rates/form-start.php:29
+msgid "Rate"
+msgstr "Stawka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "Payment Methods"
+msgstr "Metody płatności"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "If tax is 0 hide seller's VAT Number on PDF invoices."
+msgstr "Jeśli podatek wynosi 0, ukryj numer VAT sprzedawcy na fakturach PDF."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Seller's VAT Number on Invoices"
+msgstr "NIP sprzedawcy na fakturach"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "If tax is 0 hide all tax cells on PDF invoices."
+msgstr "Jeśli kwota podatku wynosi zero, ukryj wszystkie rubryki związane z podatkami na fakturze PDF"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Tax Cells on Invoices"
+msgstr "Kolumna podatku na fakturach"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Enable if you want to display place for signatures."
+msgstr "Włącz, jeśli chcesz wyświetlić miejsce dla podpisów."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+msgid "Show Signatures"
+msgstr "Pokaż podpisy na fakturze"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Label for Date of Sale"
+msgstr "Etykieta daty sprzedaży"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/CorrectionsSettingsFields.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+msgid "Default Due Time"
+msgstr "Domyślny termin płatności"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:164
+msgid "Bank Account Number"
+msgstr "Numer Konta Bankowego"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:48
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:153
+msgid "Bank Name"
+msgstr "Nazwa banku"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:84
+msgid "Logo"
+msgstr "Logo"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:38
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:131
+msgid "Company Address"
+msgstr "Adres firmy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:25
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:33
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:73
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:25
+msgid "Company Name"
+msgstr "Nazwa firmy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+msgid "General Settings"
+msgstr "Ustawienia główne"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:106
+msgid "To:"
+msgstr "Do:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:106
+msgid "From:"
+msgstr "Z:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:89
+msgid "If the download fails select smaller date range and try again."
+msgstr "Jeśli pobieranie nie powiedzie się, wybierz mniejszy zakres dat i spróbuj ponownie."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:89
+msgid "Download Invoices"
+msgstr "Pobierz faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:106
+msgid "Generate"
+msgstr "Wygeneruj"
+
+#: src/Addons/Sending/SendingTab.php:138
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/DocumentsSettings.php:64
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/WooCommerceSettings.php:51
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-end.php:21
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/tax-rates/form-end.php:21
+msgid "Save changes"
+msgstr "Zapisz zmiany"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-start.php:39
+msgid "Decimal separator"
+msgstr "Separator dziesiętny"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-start.php:34
+msgid "Thousand separator"
+msgstr "Separator tysięczny"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-start.php:29
+msgid "Currency position"
+msgstr "Pozycja symbolu waluty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:14
+msgid "Active Payments"
+msgstr "Aktywne Płatności"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/ad-metabox.php:11
+msgid "Get more WP Desk Plugins!"
+msgstr "Sprawdź inne wtyczki WP Desk!"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Order/AdminOrderActions.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Download/DownloadMenuPage.php:124
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/document-issued.php:20
+msgid "Download"
+msgstr "Pobierz"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:106
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Reports/ReportsMenuPage.php:141
+msgid "Reports"
+msgstr "Raporty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/TaxRatesSettings.php:40
+msgid "Tax rates"
+msgstr "Stawki podatkowe"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:243
+msgid "Add product"
+msgstr "Dodaj produkt"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:228
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:403
+msgid "Delete product"
+msgstr "Usuń produkt"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:23
+msgid "Product"
+msgstr "Produkt"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/MossSettingsFields.php:44
+msgid "Standard"
+msgstr "Standard"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/WooCommerceSettings.php:79
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:134
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:91
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:37
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:65
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:232
+msgid "Email"
+msgstr "E-mail"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:100
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/plain/invoice.php:42
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:60
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:222
+msgid "Phone"
+msgstr "Numer telefonu"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:71
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:55
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:184
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:55
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:154
+msgid "Country"
+msgstr "Kraj"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:45
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:146
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:45
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:116
+msgid "City"
+msgstr "Miejscowość"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:50
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:156
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:50
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:126
+msgid "Zip code"
+msgstr "Kod pocztowy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:91
+msgid "Fetch client data"
+msgstr "Pobierz dane klienta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:126
+msgid "Gross value"
+msgstr "Wartość brutto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:123
+msgid "Tax value"
+msgstr "Wartość podatku"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:120
+msgid "Net value"
+msgstr "Wartość netto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:97
+msgid "Report:"
+msgstr "Raport:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:41
+msgid "Report"
+msgstr "Raport"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/GeneralSettingsFields.php:59
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/footer.php:44
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:175
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:170
+msgid "Order number"
+msgstr "Numer zamówienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/ProformaSettingsFields.php:82
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:715
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/footer.php:23
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:159
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/footer.php:25
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:155
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:150
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:188
+msgid "Notes"
+msgstr "Uwagi"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:698
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/signatures.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/signatures.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:65
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:175
+msgid "Seller signature"
+msgstr "Podpis sprzedawcy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:692
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/signatures.php:45
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/signatures.php:45
+msgid "Buyer signature"
+msgstr "Podpis kupującego"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:592
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:88
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:352
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:85
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:85
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:200
+msgid "Including"
+msgstr "Łącznie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:540
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:631
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:57
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:293
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-horizontal.php:16
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-vertical.php:17
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction.php:14
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:57
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:57
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:155
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/horizontal.php:16
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/vertical.php:17
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:42
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:173
+msgid "Total"
+msgstr "Łącznie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:346
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:46
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:70
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:70
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:46
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:46
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:60
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:60
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:56
+msgid "Gross amount"
+msgstr "Brutto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:343
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:43
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:67
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:67
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:43
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:43
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:57
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:57
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:53
+msgid "Tax amount"
+msgstr "Kwota podatku"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:340
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:64
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:64
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:54
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:54
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:50
+msgid "Tax rate"
+msgstr "Stawka podatkowa"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:331
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:55
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:55
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:12
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:9
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:47
+msgid "Net amount"
+msgstr "Wartość netto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:325
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:37
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:37
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:33
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:33
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:29
+msgid "Unit"
+msgstr "Jednostka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:37
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:322
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:32
+msgid "Quantity"
+msgstr "Ilość"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/InvoiceTemplate.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:316
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:28
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:28
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:24
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:24
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:26
+msgid "SKU"
+msgstr "PKWiU"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:307
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:19
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:19
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:18
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:18
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:97
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:67
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/tax-rates/form-start.php:24
+msgid "Name"
+msgstr "Nazwa"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:304
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:16
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:16
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:15
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:15
+msgid "#"
+msgstr "#"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:209
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/buyer.php:20
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/buyer.php:15
+msgid "Buyer"
+msgstr "Nabywca"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/seller.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/seller.php:61
+msgid "Account number"
+msgstr "Numer konta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:185
+msgid "Bank:"
+msgstr "Bank:"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:173
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:278
+msgid "VAT Number:"
+msgstr "NIP"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:125
+msgid "Payment method:"
+msgstr "Metody płatności:"
+
+#: src/Plugin.php:138
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:191
+msgid "Support"
+msgstr "Wsparcie"
+
+#: src/Plugin.php:136
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:194
+msgid "Docs"
+msgstr "Dokumentacja"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:58
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/WooCommerceFields/CheckoutSettingsFields.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/DefaultSettings.php:49
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/User.php:35
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/buyer.php:76
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/recipient.php:73
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/header-parts/seller.php:39
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/buyer.php:60
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/recipient.php:73
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/header-parts/seller.php:39
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/customer.php:108
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:43
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/owner.php:142
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:30
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/recipient.php:78
+msgid "VAT Number"
+msgstr "NIP"
+
+#: src/Plugin.php:135
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/SettingsForm.php:76
+#: vendor_prefixed/wpdesk/wp-builder/src/Plugin/AbstractPlugin.php:198
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterMetaBoxes.php:84
+msgid "Dates and actions"
+msgstr "Daty i działania"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterMetaBoxes.php:79
+msgid "Payments and other info"
+msgstr "Płatności i inne informacje"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterMetaBoxes.php:78
+msgid "Products"
+msgstr "Produkty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "No invoices found in Trash."
+msgstr "Nie znaleziono faktur w koszu."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "No invoices found."
+msgstr "Nie znaleziono faktur."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "Search Invoices"
+msgstr "Wyszukaj faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "Save Invoice"
+msgstr "Zapisz fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/woocommerce/document-issued.php:28
+msgid "Edit Invoice"
+msgstr "Edytuj fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "Add New"
+msgstr "Dodaj nową"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "Add New Invoice"
+msgstr "Dodaj nową fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "All Invoices"
+msgstr "Wszystkie faktury"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:108
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/InvoicesIntegration.php:113
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WooCommerce/Order/RegisterMetaBox.php:48
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/DefaultSettings.php:49
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:59
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:114
+msgid "Invoice"
+msgstr "Faktura"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "Invoices"
+msgstr "Faktury"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/AbstractSettingsStrategy.php:87
+#: vendor_prefixed/wpdesk/wp-wpdesk-tracker/src/views/tracker-deactivate.php:93
+msgid "Other"
+msgstr "Inne"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/AbstractSettingsStrategy.php:87
+msgid "Cash"
+msgstr "Gotówka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/Tabs/GeneralSettings.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/AbstractSettingsStrategy.php:87
+msgid "Bank transfer"
+msgstr "Przelew bankowy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/AbstractSettingsStrategy.php:116
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:643
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-horizontal.php:28
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-vertical.php:45
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction.php:16
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/horizontal.php:31
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/vertical.php:51
+msgid "Due"
+msgstr "Do zapłaty"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:70
+msgid "Actions"
+msgstr "Działania"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:98
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:69
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:75
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout3/header.php:87
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/dates.php:65
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:125
+msgid "Payment method"
+msgstr "Metoda płatności"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:84
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:68
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:89
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/settings/currency/form-start.php:24
+msgid "Currency"
+msgstr "Waluta"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:65
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:98
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:24
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout1/header.php:17
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout3/header.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/dates.php:23
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/header.php:27
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout3/header.php:69
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:42
+msgid "Date of sale"
+msgstr "Data sprzedaży"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:79
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:67
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:64
+msgid "Payment status"
+msgstr "Status płatności"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Email/templates/emails/invoice.php:25
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:66
+msgid "Order"
+msgstr "Zamówienie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:64
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:111
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:53
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout1/header.php:35
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout3/header.php:77
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/dates.php:52
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/header.php:50
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout3/header.php:90
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:53
+msgid "Due date"
+msgstr "Termin płatności"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:52
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:63
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:103
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/dates.php:37
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout1/header.php:25
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/layout3/header.php:69
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/dates.php:39
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/header.php:41
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout3/header.php:81
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:31
+msgid "Issue date"
+msgstr "Data wystawienia"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:38
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:62
+msgid "Gross price"
+msgstr "Cena brutto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:61
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:328
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-with-sum.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/table-without-sum.php:40
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout1/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/layout2/table-sum.php:11
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table-without-sum.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/table.php:8
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/products_metabox.php:35
+msgid "Net price"
+msgstr "Cena netto"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:60
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/meta-box/all.php:22
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/report/report.php:117
+msgid "Customer"
+msgstr "Klient"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/bulk-status-select.php:14
+msgid "All statuses"
+msgstr "Wszystkie statusy"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/wordpress/bulk-status-select.php:13
+msgid "Overdue"
+msgstr "Przeterminowane"
+
+#: src/Addons/Filters/Views/advanced-filters-html.php:80
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/SettingsStrategy/AbstractSettingsStrategy.php:116
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/BulkActions.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/correction.php:637
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-horizontal.php:21
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction-vertical.php:31
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/correction/parts/totals/correction.php:15
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/horizontal.php:22
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/documents/invoice/parts/totals/vertical.php:34
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/payment_metabox.php:53
+msgid "Paid"
+msgstr "Zapłacono"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:287
+msgid "Invoice draft updated"
+msgstr "Szkic faktury został zaktualizowany"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:286
+msgid "Invoice scheduled"
+msgstr "Wystawienie faktury zostało zaplanowane"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:285
+msgid "Invoice submitted."
+msgstr "Faktura stworzona."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:284
+msgid "Invoice saved."
+msgstr "Faktura zapisana."
+
+#. translators: %s revision ID.
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:283
+msgid "Invoice issued."
+msgstr "Faktura stworzona."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:279
+msgid "Custom field deleted."
+msgstr "Własne pole zostało usunięte."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:278
+msgid "Custom field updated."
+msgstr "Własne pole zostało zaktualizowane."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:277
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/Dashboard.php:280
+msgid "Invoice updated."
+msgstr "Faktura zaktualizowana."
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Settings/DocumentsFields/InvoicesSettingsFields.php:74
+msgid "Invoice "
+msgstr "Faktura"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:148
+#: vendor_prefixed/wpdesk/flexible-invoices-core/templates/invoice_edit/options_metabox.php:70
+msgid "Download Invoice"
+msgstr "Pobierz fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/PostTypeColumns.php:146
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/WordPress/RegisterPostType.php:62
+msgid "View Invoice"
+msgstr "Zobacz fakturę"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Locales.php:12
+msgid "Consumption tax"
+msgstr "Podatek VAT"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Locales.php:12
+msgctxt "Canadian Tax Rates"
+msgid "GST"
+msgstr "Podatek od towarów i usług"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Locales.php:12
+msgctxt "Canadian Tax Rates"
+msgid "HST"
+msgstr "HST"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Locales.php:12
+msgctxt "Canadian Tax Rates"
+msgid "QST"
+msgstr "QST"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Locales.php:12
+msgctxt "Canadian Tax Rates"
+msgid "PST"
+msgstr "PST"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Zambian kwacha"
+msgstr "Kwacha zambijska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "South African rand"
+msgstr "Rand"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Yemeni rial"
+msgstr "Rial jemeński"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "CFP franc"
+msgstr "Frank CFP"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "West African CFA franc"
+msgstr "Frank CFA"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "East Caribbean dollar"
+msgstr "Dolar wschodniokaraibski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Central African CFA franc"
+msgstr "Środkowoafrykański frank CFA"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Samoan t&#x101;l&#x101;"
+msgstr "Tala"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Vanuatu vatu"
+msgstr "Vanuatu vatu"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr "Wietnamski &#x111;&#x1ed3;ng"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Venezuelan bol&iacute;var"
+msgstr "Boliwar"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Uzbekistani som"
+msgstr "Sum"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Uruguayan peso"
+msgstr "Peso urugwajskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "United States dollar"
+msgstr "Dolar amerykański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Ugandan shilling"
+msgstr "Szyling ugandyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Ukrainian hryvnia"
+msgstr "Hrywna"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Tanzanian shilling"
+msgstr "Szyling tanzański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "New Taiwan dollar"
+msgstr "Nowy dolar tajwański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Trinidad and Tobago dollar"
+msgstr "Dolar Trynidadu i Tobago"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Turkish lira"
+msgstr "Lira turecka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Tongan pa&#x2bb;anga"
+msgstr "Pa&#x2bb;anga"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Tunisian dinar"
+msgstr "Dinar tunezyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Turkmenistan manat"
+msgstr "Manat turkmeński"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Tajikistani somoni"
+msgstr "Somoni"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Thai baht"
+msgstr "Bat"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Swazi lilangeni"
+msgstr "Lilangeni"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Syrian pound"
+msgstr "Funt syryjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr "Wyspy Świętego Tomasza i Księżyca dobra"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "South Sudanese pound"
+msgstr "Funt południowosudański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Surinamese dollar"
+msgstr "Dolar surinamski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Somali shilling"
+msgstr "Szyling somalijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Sierra Leonean leone"
+msgstr "Leone"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Saint Helena pound"
+msgstr "Funt Świętej Heleny"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Singapore dollar"
+msgstr "Dolar singapurski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Swedish krona"
+msgstr "Korona szwedzka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Sudanese pound"
+msgstr "Funt sudański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Seychellois rupee"
+msgstr "Rupia seszelska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Solomon Islands dollar"
+msgstr "Dolar Wysp Salomona"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Saudi riyal"
+msgstr "Rial saudyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Rwandan franc"
+msgstr "Frank rwandyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Russian ruble"
+msgstr "Rubel rosyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Serbian dinar"
+msgstr "Dinar serbski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Romanian leu"
+msgstr "Lej rumuński"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Qatari riyal"
+msgstr "Rial katarski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Paraguayan guaran&iacute;"
+msgstr "Guaran&iacute;"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Transnistrian ruble"
+msgstr "Naddniestrzański rubel"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Polish z&#x142;oty"
+msgstr "Złoty polski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Pakistani rupee"
+msgstr "Rupia pakistańska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Philippine peso"
+msgstr "Peso filipińskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Papua New Guinean kina"
+msgstr "Kina"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Peruvian nuevo sol"
+msgstr "Sol"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Panamanian balboa"
+msgstr "Balboa"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Omani rial"
+msgstr "Rial omański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "New Zealand dollar"
+msgstr "Dolar nowozelandzki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Nepalese rupee"
+msgstr "Rupia nepalska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Norwegian krone"
+msgstr "Korona norweska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr "Nikaragua c&oacute;rdoba"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Nigerian naira"
+msgstr "Naira"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Namibian dollar"
+msgstr "Dolar namibijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Mozambican metical"
+msgstr "Metical"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Malaysian ringgit"
+msgstr "Ringgit"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Mexican peso"
+msgstr "Peso meksykańskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Malawian kwacha"
+msgstr "Kwacha malawijska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Maldivian rufiyaa"
+msgstr "Rupia malediwska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Mauritian rupee"
+msgstr "Rupia Mauritiusu"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Mauritanian ouguiya"
+msgstr "Ugija"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Macanese pataca"
+msgstr "Pataca"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr "Mongolski Tugrik"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Burmese kyat"
+msgstr "Kiat"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Macedonian denar"
+msgstr "Denar macedoński"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Malagasy ariary"
+msgstr "Ariary"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Moldovan leu"
+msgstr "Lej Mołdawii"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Moroccan dirham"
+msgstr "Dirham marokański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Libyan dinar"
+msgstr "Dinar libijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Lesotho loti"
+msgstr "Loti"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Liberian dollar"
+msgstr "Dolar liberyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Sri Lankan rupee"
+msgstr "Rupia lankijska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Lebanese pound"
+msgstr "Funt libański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Lao kip"
+msgstr "Kip laotański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Kazakhstani tenge"
+msgstr "Tenge"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Cayman Islands dollar"
+msgstr "Dolar kajmański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Kuwaiti dinar"
+msgstr "Dinar kuwejcki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "South Korean won"
+msgstr "Won południowokoreański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "North Korean won"
+msgstr "Won północnokoreański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Comorian franc"
+msgstr "Frank Komorów"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Cambodian riel"
+msgstr "Riel kambodżański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Kyrgyzstani som"
+msgstr "Som"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Kenyan shilling"
+msgstr "Szyling kenijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Japanese yen"
+msgstr "Jen"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Jordanian dinar"
+msgstr "Dinar jordański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Jamaican dollar"
+msgstr "Dolar jamajski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Jersey pound"
+msgstr "Funt Jersey"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Icelandic kr&oacute;na"
+msgstr "Korona islandzka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Iranian rial"
+msgstr "Rial irański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Iraqi dinar"
+msgstr "Dinar iracki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Indian rupee"
+msgstr "Rupia indyjska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Manx pound"
+msgstr "Manx funt"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Israeli new shekel"
+msgstr "Nowy izraelski szekel"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Indonesian rupiah"
+msgstr "Rupia indonezyjska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Hungarian forint"
+msgstr "Forint"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Haitian gourde"
+msgstr "Gourde"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Croatian kuna"
+msgstr "Kuna chorwacka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Honduran lempira"
+msgstr "Lempira"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Hong Kong dollar"
+msgstr "Hong Kong dollar"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Guyanese dollar"
+msgstr "Dolar gujański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Guatemalan quetzal"
+msgstr "Quetzal"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Guinean franc"
+msgstr "Frank gwinejski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Gambian dalasi"
+msgstr "Dalasi"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Gibraltar pound"
+msgstr "Funt gibraltarski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Ghana cedi"
+msgstr "Cedi"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Guernsey pound"
+msgstr "Funt Guernsey"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Georgian lari"
+msgstr "Lari gruziński"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Pound sterling"
+msgstr "Funt Szterling"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Falkland Islands pound"
+msgstr "Funt falklandzki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Fijian dollar"
+msgstr "Dolar Fidżi"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Euro"
+msgstr "Euro"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Ethiopian birr"
+msgstr "Birr"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Eritrean nakfa"
+msgstr "Nakfa"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Egyptian pound"
+msgstr "Funt egipski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Algerian dinar"
+msgstr "Dinar algierski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Dominican peso"
+msgstr "Peso dominikańskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Danish krone"
+msgstr "Korona duńska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Djiboutian franc"
+msgstr "Frank Dżibuti"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Czech koruna"
+msgstr "Korona czeska"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Cape Verdean escudo"
+msgstr "Escudo Zielonego Przylądka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Cuban peso"
+msgstr "Peso kubańskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Cuban convertible peso"
+msgstr "Kubańskie peso wymienialne"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Costa Rican col&oacute;n"
+msgstr "Colon kostarykański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Colombian peso"
+msgstr "Peso kolumbijskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Chinese yuan"
+msgstr "Renminbi"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Chilean peso"
+msgstr "Peso chilijskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Swiss franc"
+msgstr "Frank szwajcarski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Congolese franc"
+msgstr "Frank kongijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Canadian dollar"
+msgstr "Dolar kanadyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Belize dollar"
+msgstr "Belize dollar"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Belarusian ruble"
+msgstr "Rubel białoruski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Botswana pula"
+msgstr "Pula"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bhutanese ngultrum"
+msgstr "Ngultrum"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bitcoin"
+msgstr "Bitcoin"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bahamian dollar"
+msgstr "Dolar bahamski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Brazilian real"
+msgstr "Real brazylijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bolivian boliviano"
+msgstr "Boliviano boliwijskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Brunei dollar"
+msgstr "Dolar brunejski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bermudian dollar"
+msgstr "Dolar bermudzki"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Burundian franc"
+msgstr "Frank burundyjski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bahraini dinar"
+msgstr "Dinar bahrajski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bulgarian lev"
+msgstr "Lew bułgarski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bangladeshi taka"
+msgstr "Taka"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Barbadian dollar"
+msgstr "Dolar barbadoski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr "Marka zamienna"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Azerbaijani manat"
+msgstr "Manat azerbejdżański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Aruban florin"
+msgstr "Florin arubański"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Australian dollar"
+msgstr "Dolar australijski"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Argentine peso"
+msgstr "Peso argentyńskie"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Angolan kwanza"
+msgstr "Kwanza"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Netherlands Antillean guilder"
+msgstr "Gulden Antyli Holenderskich"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Armenian dram"
+msgstr "Dram"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Albanian lek"
+msgstr "Lek"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "Afghan afghani"
+msgstr "Afgani"
+
+#: vendor_prefixed/wpdesk/flexible-invoices-core/src/Invoices/Configs/Currency.php:39
+msgid "United Arab Emirates dirham"
+msgstr "Dirham Zjednoczonych Emiratów Arabskich"

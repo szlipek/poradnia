@@ -1,0 +1,62 @@
+.forms {
+    padding: 6rem 0;
+    background: $c-three;
+    @include breakpoint(tablet) {
+        padding: 3rem 0;
+    }
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &-single {
+            margin-bottom: 5rem;
+            background: white;
+            box-shadow: $shadow;
+            flex: 0 0 calc(50% - 3rem);
+            width: calc(50% - 3rem);
+            box-sizing: border-box;
+            padding: 5rem 4rem;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            transition: $transition;
+            @include breakpoint(tablet) {
+                flex: 0 0 100%;
+                width: 100%;
+                padding: 2rem;
+            }
+            &:hover {
+                box-shadow: $shadow1;
+            }
+            &-img {
+                width: 8rem;
+                height: 8rem;
+                margin-right: 3rem;
+                @include breakpoint(tablet) {
+                    margin-right: 1rem;
+                    width: 5rem;
+                    height: 5rem;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            h3 {
+                flex: 0 0 calc(100% - 11rem);
+                width: calc(100% - 11rem);
+                margin-bottom: 0;
+                @include breakpoint(tablet) {
+                    flex: 0 0 calc(100% - 6rem);
+                    width: calc(100% - 6rem);
+                }
+            }
+            &-text {
+                flex: 0 0 100%;
+                width: 100%;
+                margin-top: 3rem;
+            }
+        }
+    }
+}

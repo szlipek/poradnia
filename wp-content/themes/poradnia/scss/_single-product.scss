@@ -1,0 +1,161 @@
+.single__product {
+    background: $c-three;
+    padding: 6rem 0;
+    @include breakpoint(tablet) {
+        padding: 3rem 0;
+    }
+    &-box {
+        background: white;
+        padding: 6rem 4.5rem;
+        box-sizing: border-box;
+        box-shadow: $shadow2;
+        @include breakpoint(tablet) {
+            padding: 2rem;
+        }
+        &-img {
+            margin: -6rem -4.5rem 3rem;
+            @include breakpoint(tablet) {
+                margin: -2rem -2rem 3rem;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            figure {
+                flex: 0 0 9rem;
+                margin-right: 1rem;
+                width: 9rem;
+                @include breakpoint(tablet) {
+                    flex: 0 0 4rem;
+                    width: 4rem;
+                }
+                img {
+                    width: 9rem;
+                    height: 9rem;
+                    object-fit: contain;
+                    @include breakpoint(tablet) {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+        &-meta {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            @include breakpoint(phablet) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            p {
+                margin-bottom: 0;
+                color: $c-one;
+                text-transform: uppercase;
+                font-size: 2rem;
+                line-height: 2.4rem;
+            }
+            .flex {
+                margin-left: 3rem;
+                @include breakpoint(tablet) {
+                    margin-left: 0;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.single-product {
+    .breadcrumbs {
+        background: $c-three;
+        margin-top: -3rem;
+    }
+}
+
+.related {
+    padding: 7.5rem 0 10.5rem;
+    @include breakpoint(tablet) {
+        flex: 3rem 0;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        @include breakpoint(tablet) {
+            flex-wrap: wrap;
+        }
+    }
+    &__single {
+        flex: 1;
+        margin: 0 2rem;
+        background: white;
+        box-sizing: border-box;
+        box-shadow: $shadow2;
+        padding: 1.5rem 3rem;
+        @include breakpoint(tablet) {
+            flex: 0 0 100%;
+            width: 100%;
+            padding: 1.5rem;
+            margin: 0 0 3rem;
+        }
+        &-title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            a {
+                color: black;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
+            }
+        }
+        &-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @include breakpoint(phablet) {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .btn {
+                padding: 1rem 2.2rem;
+                @include breakpoint(phablet) {
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.added_to_cart {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: $c-one;
+    color: white;
+    padding: 2rem;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    transition: $transition;
+    animation: cssAnimation 5s forwards;
+    &:hover {
+        background: $c-one-hover;
+        color: white;
+    }
+}
+
+@keyframes cssAnimation {
+    0%   {transform: translateY(0)}
+    90%  {transform: translateY(0)}
+    100% {transform: translateY(100%)}
+}

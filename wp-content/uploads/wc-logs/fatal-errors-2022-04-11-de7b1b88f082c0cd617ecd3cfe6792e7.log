@@ -1,0 +1,4 @@
+2022-04-11T06:31:07+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR) w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\products.php w linii 50
+
+2022-04-11T09:59:25+00:00 CRITICAL syntax error, unexpected '<', expecting end of file w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\product-block.php w linii 88
+

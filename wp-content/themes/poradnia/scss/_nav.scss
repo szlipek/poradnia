@@ -1,0 +1,241 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 1.2rem 0;
+    z-index: 5;
+    box-shadow: $shadow2;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        @include breakpoint(tablet) {
+            height: 5rem;
+            width: auto;
+            img {
+                height: 100%;
+                width: auto;
+            }
+        }
+    }
+    &__menu {
+        margin-left: auto;
+        @include breakpoint(tablet) {
+            position: absolute;
+            width: 100%;
+            background: white;
+            height: calc(100vh - 7rem);
+            transform: translateX(-100%);
+            transition: $transition;
+            top: 6rem;
+            box-sizing: border-box;
+            padding: 3rem 0;
+            left: 0;
+            > div {
+                height: 100%;
+            }
+            &.active {
+                transform: translateX(0);
+            }
+            ul {
+                flex-direction: column;
+                height: 100%;
+                justify-content: flex-start;
+                align-items: center;
+            }
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            a {
+                color: black;
+                font-size: 1.8rem;
+                line-height: 2.2rem;
+                text-decoration: none;
+                margin-right: 4.6rem;
+                transition: $transition;
+                padding: 2rem 0;
+                @include breakpoint(tablet) {
+                    margin-right: 0;
+                    margin-bottom: .5rem;
+                    display: block;
+                    text-align: center;
+                }
+                &:hover {
+                    color: $c-one;
+                }
+            }
+            li {
+                position: relative;
+                &:last-child {
+                    a {
+                        background: $c-one;
+                        color: white;
+                        padding: 1.6rem 3.6rem;
+                        border-radius: 3rem;
+                        font-weight: $medium;
+                        display: block;
+                        @include breakpoint(tablet) {
+                            margin: 0 auto;
+                        }
+                        &:hover {
+                            background: $c-one-hover;
+                        }
+                    }
+                }
+                ul {
+                    position: absolute;
+                    background: $c-one;
+                    padding: 2rem;
+                    top: 100%;
+                    left: 0;
+                    transition: $transition;
+                    transform: translateY(-30rem);
+                    opacity: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    @include breakpoint(tablet) {
+                        position: relative;
+                        padding: .5rem;
+                        top: 0;
+                        transform: translateY(0);
+                        opacity: 1;
+                        align-items: center;
+                        height: auto;
+
+                    }
+                    a {
+                        background: none;
+                        display: block;
+                        color: white;
+                        padding: 0;
+                        font-weight: 400;
+                        white-space: nowrap;
+                        margin-right: 0;
+                        margin-bottom: 1rem;
+                        text-align: left;
+                        &:hover {
+                            color: $c-seven !important;
+                            background: none;
+                        }
+                    }
+                    li {
+                        &:last-child {
+                            a {
+                                background: none;
+                                color: white;
+                                padding: 0;
+                                font-weight: 400;
+                                white-space: nowrap;
+                                margin-right: 0;
+                                margin-bottom: 1rem;
+                                text-align: left;
+                                &:hover {
+                                    color: $c-seven !important;
+                                    background: none;
+                                }
+                            }
+                        }
+
+                    }
+                }
+                &:hover {
+                    ul {
+                        transform: translateY(0);
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+    &__btn {
+        display: none;
+        @include breakpoint(tablet) {
+            display: block;
+            position: relative;
+            width: 3rem;
+            height: 2rem;
+            flex: 0 0 3rem;
+            cursor: pointer;
+            margin-left: auto;
+            span {
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                border-radius: 3rem;
+                background: $c-one;
+                transition: $transition;
+                &:first-child {
+                    top: 0;
+                    left: 0;
+
+                }
+                &:nth-child(2) {
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    transform-origin: center;
+                }
+                &:last-child {
+                    top: 100%;
+                    transform: translateY(-100%);
+                    left: 0;
+                }
+            }
+            &.active {
+                span {
+                    &:first-child {
+                        top: 50%;
+                        transform: translateY(-50%) rotate(45deg);
+                    }
+                    &:nth-child(2) {
+                        width: 0;
+                    }
+                    &:last-child {
+                        top: 50%;
+                        transform: translateY(-50%) rotate(-45deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.cart-contents {
+    position: relative;
+    display: flex !important;
+    flex-flow: column nowrap;
+    justify-content: center;
+    @include breakpoint(tablet) {
+        margin-left: 3rem;
+    }
+}
+
+
+.cart-contents:hover {
+    text-decoration: none;
+}
+
+.cart-contents-count {
+    position: absolute;
+    top: 15px;
+    right: 1px;
+    transform: translateY(-105%) translateX(25%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    height: 22px;
+    width: 22px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border-radius: 50%;
+    padding: 1px;
+}

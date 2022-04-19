@@ -1,0 +1,12 @@
+2022-03-24T07:47:22+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\product-block.php:13
+Stack trace:
+#0 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(437): include()
+#1 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(367): acf_render_block(Array, '', false, 110, Object(WP_Block), Array)
+#2 C:\strony\poradnia\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(328): acf_rendered_block(Array, '', false, 110, Object(WP_Block))
+#3 C:\strony\poradnia\wp-includes\class-wp-block.php(255): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 C:\strony\poradnia\wp-includes\blocks.php(883): WP_Block->render()
+#5 C:\strony\poradnia\wp-includes\blocks.php(921): render_block(Array)
+#6 C:\strony\poradnia\wp-includes\class-wp-hook.php(307): do_blocks('<!-- wp:acf/pro...')
+#7 C:\strony\poradnia\wp-includes\plugin.php(189): WP_Hook->apply_filters('<!-- wp:acf/pro...', Array)
+#8 C:\str w C:\strony\poradnia\wp-content\themes\poradnia\modules\blocks\product-block.php w linii 13
+

@@ -1,0 +1,70 @@
+.download {
+    padding: 7rem 0;
+    &__row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        &-col {
+            flex: 0 0 calc(33% - 4rem);
+            margin-right: 4rem;
+            margin-bottom: 4rem;
+            @include breakpoint(tablet) {
+                flex: 0 0 calc(50% - 4rem);
+            }
+            @include breakpoint(mobileonly ) {
+                flex: 0 0 100%;
+                margin-right: 0;
+            }
+            figure {
+                position: relative;
+                margin-bottom: 2rem;
+                img {
+                    width: 100%;
+                    height: auto;
+                    position: relative;
+                    z-index: 2;
+                }
+                span {
+                    position: absolute;
+                    display: block;
+                    &.top {
+                        top: 0;
+                        width: calc(100% + 2rem);
+                        left: -1rem;
+                        height: .1rem;
+                        background: #d0d0d0;
+                    }
+                    &.bottom {
+                        bottom: .2rem;
+                        width: calc(100% + 2rem);
+                        left: -1rem;
+                        height: .1rem;
+                        background: #d0d0d0;
+                    }
+                    &.left {
+                        top: -1rem;
+                        width: .1rem;
+                        left: 0;
+                        height: calc(100% + 2rem);
+                        background: #d0d0d0;
+                    }
+                    &.right {
+                        top: -1rem;
+                        width: .1rem;
+                        right: 0;
+                        height: calc(100% + 2rem);
+                        background: #d0d0d0;
+                    }
+                }
+            }
+        }
+    }
+    .btn {
+        padding: .5rem 3rem;
+        img {
+            transform: rotate(90deg);
+            width: 1.4rem;
+            margin-left: 1rem;
+        }
+    }
+}

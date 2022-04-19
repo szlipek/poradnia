@@ -1,0 +1,118 @@
+.opinions {
+    position: relative;
+    background: $c-three;
+    padding: 7rem 0 14rem;
+    overflow: hidden;
+
+    .container {
+        z-index: 2;
+    }
+
+    &__slider {
+        background: white;
+        box-shadow: $shadow2;
+        &-slide {
+            box-sizing: border-box;
+            padding: 10rem;
+            text-align: center;
+            position: relative;
+            @include breakpoint(tablet) {
+                padding: 3rem;
+            }
+            &::before,
+            &::after{
+                content: '';
+                position: absolute;
+                background-image: url(/wp-content/themes/poradnia/img/quote.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 12rem;
+                height: 11rem;
+            }
+            &::before {
+                top: 6rem;
+                left: 6rem;
+            }
+            &::after {
+                bottom: 12rem;
+                right: 6rem;
+            }
+            p {
+                strong {
+                    font-weight: $medium;
+                }
+            }
+        }
+    }
+
+    .tns-controls {
+        position: absolute;
+        left: 0;
+        bottom: -6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        z-index: 3;
+        button {
+            text-indent: -9999rem;
+            width: 3.5rem;
+            height: 3.5rem;
+            background-color: rgba(255,255,255,.8);
+            border: none;
+            margin-right: .5rem;
+            cursor: pointer;
+            position: relative;
+            &::before {
+                content: '';
+                display: inline-block;
+                background-image: url('/wp-content/themes/poradnia/img/chevron.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                width: 2rem;
+                height: 2rem;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            &[data-controls="prev"] {
+
+                &:before {
+                    transform:  translate(-50%, -50%) rotate(-90deg);
+                    margin-top: .2rem;
+                }
+            }
+            &[data-controls="next"] {
+                &::before {
+                    transform:  translate(-50%, -50%) rotate(90deg);
+                }
+
+            }
+        }
+    }
+    &__img {
+        position: absolute;
+        bottom: 15rem;
+        width: 30%;
+        @include breakpoint(smallDesktop) {
+            width: 18%;
+        }
+        &-left {
+            left: 0;
+            @include breakpoint(smallDesktop) {
+                transform: translateX(-30%);
+            }
+        }
+        &-right {
+            right: 4rem;
+            width: 25%;
+            @include breakpoint(smallDesktop) {
+                width: 14%;
+                right: 0;
+                transform: translateX(30%);
+            }
+        }
+    }
+}

@@ -1,0 +1,148 @@
+.btn {
+    transition: $transition;
+    background: $c-one;
+    font-family: $f-one;
+    color: white;
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: $medium;
+    text-decoration: none;
+    box-shadow: $shadow;
+    &:hover {
+        background:$c-one-hover;
+        box-shadow: $shadow1;
+        color: white;
+    }
+    img {
+        margin-left: 3rem;
+    }
+    &-long {
+        padding: 2rem 7rem;
+        position: relative;
+        img {
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &-two {
+        color: $c-one;
+        background: none;
+        border-radius: 0;
+        padding: 0;
+        box-shadow: none;
+        img {
+            margin-left: 3rem;
+            transition: $transition;
+        }
+        &:hover {
+            background: none;
+            box-shadow: none;
+            img {
+                margin-left: 1rem;
+            }
+        }
+    }
+    &-three {
+        transition: $transition;
+        border: 1px solid $c-one;
+        background: inherit;
+        color: $c-one;
+        border-radius: 6rem;
+        display: flex;
+        align-items: center;
+        padding: 2rem 1.5rem;
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: $medium;
+        text-decoration: none;
+        box-shadow: $shadow;
+        height: 3.4rem;
+
+        &:hover {
+            background: $c-one;
+            color: white;
+            box-shadow: $shadow1;
+        }
+    }
+}
+
+.button {
+    transition: $transition;
+    border: 1px solid $c-one;
+    color: $c-one;
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: $medium;
+    text-decoration: none;
+    box-shadow: $shadow;
+    height: 3.4rem;
+
+    &:hover {
+        background: $c-one;
+        color: white;
+        box-shadow: $shadow1;
+    }
+}
+
+.add_to_cart_button {
+        transition: $transition !important;
+        background: $c-one !important;
+        font-family: $f-one !important;
+        color: white !important;
+        border-radius: 6rem !important;
+        display: flex !important;
+        align-items: center !important;
+        padding: 1.5rem 3.5rem !important;
+        font-size: 1.6rem !important;
+        line-height: 1.9rem !important;
+        font-weight: $medium !important;
+        text-decoration: none !important;
+        box-shadow: $shadow !important;
+        &::after {
+            content: '';
+            display: block;
+            width: 1.9rem;
+            flex: 1.9rem;
+            height: 1.9rem;
+            background-image: url(/wp-content/themes/poradnia/img/plus.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            margin-left: 1.3rem;
+        }
+        &:hover {
+            background:$c-one-hover !important;
+            box-shadow: $shadow1 !important;
+            color: white !important;
+        }
+}
+
+.checkout-button {
+    transition: $transition;
+    background: $c-one;
+    font-family: $f-one;
+    color: white;
+    border-radius: 6rem;
+    display: flex;
+    align-items: center;
+    padding: 2rem 1.5rem;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: $medium;
+    text-decoration: none;
+    box-shadow: $shadow;
+    &:hover {
+        background:$c-one-hover;
+        box-shadow: $shadow1;
+        color: white;
+    }
+}
